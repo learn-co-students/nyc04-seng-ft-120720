@@ -57,14 +57,17 @@ Have a question? [Ask us!](https://flatiron-school.slack.com/archives/C018TV7P7U
 
 ## Week 1
 
-Week one of every module is designated for you to get exposure to different topics that you will consolidate over the following weekend and the days before the code challenge and then practice further in the project week. Usually, you will get **A LOT** of labs in the first days -- please know you will have time to finish them by the end of the week and focus initially on the priority ones. In Mod1 Week1 you will:
+Week one of every module is designated for you to get exposure to different topics that you will consolidate over the following weekend and the days before the code challenge and then practice further in the project week. Usually, you will get **A LOT** of labs in the first days -- please know you will have time to finish them by the end of the week and focus initially on the priority ones. In Mod1 Week1 you should:
+- become comfortable with using `binding.pry`,
 - write your own classes,
 - use getter and setter methods for attributes,
 - add instance and class methods,
 - be able to check what `self` denotes,
 - connect two (or more!) classes together,
 - draw domain models,
-- use `map`, `find`, `select` and `each` on instances of classes.
+- use `map`, `find`, `select` and `each` on instances of classes,
+- become aware of how stress manifests for you in this program setting and find ways to deal with it (or reach out to your instructors for help),
+- be proficiently using Slack channels, DMs, emoji responses and threads to seek help, offer support and build commmunity.
 
 These are the skills you need to prioritize when studying this week. Please take every opportunity to write code. If you're lacking prompts from labs, just look around yourself and write a code description of your room (your room being one class, with other classes being furniture, people, plants, etc. -- add aspecific behaviors and interdependencies, etc.).
 
