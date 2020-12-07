@@ -81,6 +81,14 @@ These are the skills you need to prioritize when studying this week. Please take
     - How can I hack Ruby classes (e.g. String)? Why would I? 
 
 #### Labs
+Start here:
+
+- **Welcome to Phase 1** ⭐️
+- **What Makes an effective programmer?** ⭐️
+- **Blogging** ⭐️
+- **Module Assessments** ⭐️
+- **Common Terminal Issues** ⭐️
+
 Introduction To Object-Orientation In Ruby:
 - **Intro To Classes And Instances** ⭐️
 - **Classes And Instances Lab** ⭐️
