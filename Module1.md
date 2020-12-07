@@ -1,4 +1,4 @@
-# Mod 1 Instruction and Schedule for 071220: The Code Benders
+# Mod 1 Instruction and Schedule for 120720: The Code Benders
 
 ## Table of contents
 - [Mod1 Expectations](#mod1-expectations)
@@ -15,7 +15,7 @@
 ---
 
 ## Mod1 Expectations
-Welcome to Module 1, where we will expand and deepen your understanding of Ruby. In the next three weeks, you should become more comfortable with writing Ruby in Object Oriented paradigm, combine it with a database and finally, create your own CLI. Please don't panic -- we will guide you through this process. 
+Welcome to Phase 1, where we will expand and deepen your understanding of Ruby. In the next three weeks, you should become more comfortable with writing Ruby in Object Oriented paradigm, combine it with a database and finally, create your own CLI. Please don't panic -- we will guide you through this process. 
 
 In order to take most of this mod, please take these pieces of advice to heart:
 - do your labs and make sure to at least skim the priority ones before the lecture;
