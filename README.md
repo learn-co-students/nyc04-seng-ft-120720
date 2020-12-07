@@ -6,6 +6,7 @@ Missing something? Ping your lead on Slack. (Also, here is [all the code](https:
 ## Mod 1
 | Topic            | Code                | Video                | Chat notes |
 | -----            | ----                | -----                | ---- |
+| Intro to Phase One | - | [Video](https://youtu.be/mdwLAvc8dKA) | [Chat](https://github.com/learn-co-students/nyc04-seng-ft-120720/blob/main/chats/W1D1-IntroPhaseOne.txt) |
 | Intro to Object Orientation in Ruby | -  | - | - |
 | Intro to OO in Ruby: Classes, Instances, Instance variables | - | - | - |
 | Self, class methods, instance methods | - | - | - |
