@@ -76,12 +76,11 @@ These are the skills you need to prioritize when studying this week. Please take
 ### W1 Monday
 
 #### Self-check questions
-- Morning lecture: 
-    - What are objects in Ruby? What is "behavior" and "data"?
-    - How do I write a class in Ruby?
-    - What is a class and instance? 
-    - How do I create a new instance of the class?
-    - How can I hack Ruby classes (e.g. String)? Why would I? 
+   - What are objects in Ruby? What is "behavior" and "data"?
+   - How do I write a class in Ruby?
+   - What is a class and instance? 
+   - How do I create a new instance of the class?
+   - How can I hack Ruby classes (e.g. String)? Why would I? 
 
 #### Labs
 Start here:
