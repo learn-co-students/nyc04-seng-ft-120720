@@ -68,6 +68,8 @@ Week one of every module is designated for you to get exposure to different topi
 
 These are the skills you need to prioritize when studying this week. Please take every opportunity to write code. If you're lacking prompts from labs, just look around yourself and write a code description of your room (your room being one class, with other classes being furniture, people, plants, etc. -- add aspecific behaviors and interdependencies, etc.).
 
+---
+
 ### W1 Monday
 
 #### Self-check questions
@@ -95,6 +97,8 @@ Introduction To Object-Orientation In Ruby:
 - OO Email Parser
 - **Ruby Object Orientation Fundamentals Quiz** ⭐️
 - **Object-Orientation In Ruby Bookend** ⭐️
+
+---
 
 ### W1 Tuesday
 
@@ -130,6 +134,8 @@ Topics In OO - Class Variables And Methods In Ruby
 - **Class Variables And Methods Quiz** ⭐️
 - **Class Variables And Methods Bookend** ⭐️
 
+---
+
 ### W1 Wednesday
 
 #### Self-check questions
@@ -144,6 +150,8 @@ Topics In OO - Class Variables And Methods In Ruby
 - Pairing Lab: Enumerables
 - Solo lab: OO Person
 - catch up on previous labs
+
+---
 
 ### W1 Thursday
 
@@ -181,6 +189,8 @@ Topics In OO - Object Relationships In Ruby
 - **Object Relationships Quiz** ⭐️
 - **Object Relationships Bookend** ⭐️
 
+---
+
 
 ### W1 Friday
 
@@ -193,6 +203,8 @@ Topics In OO - Object Relationships In Ruby
 
 #### Labs
 - Catch up on previous labs
+
+---
 
 ### W1 Weekend
 
