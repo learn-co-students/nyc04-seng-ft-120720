@@ -77,3 +77,11 @@ this is what might be happening:
 ## Add behavior to the dog instance
 Our dog can already bark, now let's make it spin. 
  <img src="dog-rb-3.png" height="300px" width="auto" style="display:inline"  alt="an ikea-like manual">
+
+ ## HOMEWORK
+ - make it possible for your Housemate instances to be initiated with a name, age, a catchphrase and two other attributes; you should have _at least_: 
+    - one `attr_reader`, 
+    - one `attr_writer`, 
+    - and one `attr_accessor`
+- In the comments explain why you decided to make each of the attributes a given access permissions (write access, read access, writeread access)
+- TEST YOUR CODE
