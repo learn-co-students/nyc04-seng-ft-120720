@@ -84,4 +84,5 @@ Our dog can already bark, now let's make it spin.
     - one `attr_writer`, 
     - and one `attr_accessor`
 - In the comments explain why you decided to make each of the attributes a given access permissions (write access, read access, writeread access)
+- Finally, add a behavior of your housemate who will introduce themselves using their name (don't hardcode it, use the instance variables)
 - TEST YOUR CODE
