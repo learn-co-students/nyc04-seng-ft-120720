@@ -1,0 +1,38 @@
+10:50:09	 From John Wisneski : https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/02-Classes-Instances-Attributes if anyone couldn't find it to follow along
+10:59:21	 From Josh Frank : https://repl.it/
+10:59:26	 From Josh Frank : This is very helpful to me
+11:02:09	 From Josh Frank : So parameters are used in function definitions and arguments are used with function calls?
+11:05:06	 From Hasibul Chowdhury : Yes ^
+11:05:31	 From Josh Frank : Thanks Hasibul
+11:05:57	 From Hasibul Chowdhury : “Option + Z” to toggle word wrap in VSCode
+11:13:41	 From Josh Frank : What’s the shortcut to clear the terminal?
+11:13:51	 From Jonathan Brinson : Cmd + k
+11:13:56	 From Josh Frank : Cool thanks Jonathan
+11:14:31	 From Hasibul Chowdhury : you can also type “clear” in terminal
+11:14:36	 From Josh Frank : Thanks Hasibul
+11:14:54	 From Jordan Carroll : How would you clear it if you were using IRB
+11:15:04	 From Simon Jacobs : You’d need to exit() first
+11:15:13	 From Simon Jacobs : Then clear then irb again
+11:15:17	 From Jordan Carroll : Thanks!
+11:15:28	 From Simon Jacobs : Of course
+11:23:58	 From Hasibul Chowdhury : Some of my fave VScode shortcuts: https://medium.com/@hasibulc/visual-studio-code-shortcuts-6f0122109532
+11:24:10	 From Josh Frank : So useful thanks Hasibul
+11:24:15	 From Danny Sasse (he/him) : Thank you
+12:01:05	 From Alex Marz : Did anyone else’s zoom just lag or is it my internet?
+12:01:08	 From Josh Frank : Not just you
+12:01:11	 From Josh Frank : Mine too
+12:01:12	 From victor cordero : Mine too
+12:01:12	 From Madiwa Simon : Yeah it is lagging
+12:01:14	 From Jaclyn Barrera : mine too
+12:01:14	 From Yevgeniy Valdman : Big lag
+12:01:15	 From Melissa Faulner (she/her) : Same
+12:01:17	 From Lauren Gifford : lagging
+12:01:17	 From Nicholas Repasy : same
+12:01:25	 From Woodelin Florveus : lagging
+12:01:25	 From Josh Frank : There it goes again
+12:01:29	 From Josh Gumerove : same
+12:01:41	 From Woodelin Florveus : i thought it was only my computer
+12:01:41	 From Shmuly Levitin : same
+12:02:30	 From Hasibul Chowdhury : It looks like zoom is having issues
+12:02:33	 From Hasibul Chowdhury : https://downdetector.com/status/zoom/map/
+12:02:33	 From Madiwa Simon : Sylvia is frozen now
