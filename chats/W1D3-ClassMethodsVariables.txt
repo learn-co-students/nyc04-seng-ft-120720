@@ -1,4 +1,7 @@
+14:02:05	 From Josh Frank : “Buy Square Register”
 14:04:20	 From Josh Frank : @@confusing
+14:07:02	 From Josh Frank : Git init
+14:07:04	 From Josh Frank : Then git pull
 14:20:10	 From Jordan Carroll : creating a getting for breed
 14:20:10	 From Josh Frank : They’re allowing us to get and set
 14:20:20	 From Josh Frank : Does .initialize count as an instance method?
@@ -85,3 +88,5 @@
 15:54:04	 From madiwa simon : haha
 15:54:08	 From Nicholas Repasy : ba dum tssss
 15:54:10	 From Mary Dick : 😂
+15:55:19	 From Sam Hall : Thanks Sylwia!
+15:55:20	 From Danny Sasse (he/him) : Thank you Sylwia
