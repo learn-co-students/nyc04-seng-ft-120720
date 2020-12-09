@@ -59,7 +59,7 @@ class Person
     end
 
     def hungry_yet?
-        #check if 0,3s. has passed since last hunger change -- this will result in a boolean (true or false)
+        #check if hunger time has passed since last hunger change -- this will result in a boolean (true or false)
         Time.now - last_hunger_change >= hunger_time
     end
 
