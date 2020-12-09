@@ -7,26 +7,31 @@ binding.pry
 
 # 1. Write a Person class.
 
-# 2. The person should be instantiated with these attributes: `last_hunger_level_change`, `name`, `hunger_level`, `hunger_time`. Only name will remain unchanged in this example but we will want to read it. We won't be reading `hunger_time` and `last_hunger_level_change` but we will be changing it. `hunger_time` should default to 0.1 unless the user passed another value. Moreover, each person should be initialized with this data:
+# 2. The person should be instantiated with these attributes: `last_hunger_level_change`, `name`, `hunger_level`, `hunger_time`. 
+
+# 2a. When creating a new person, we should provide only an argument of a name and we **could** provide an argument of a hunger_time but not necessarily;
+
+# 2b. `hunger_time` should default to 0.01 unless the user passed another value. Moreover, each person should be initialized with this data:
 # `last_hunger_level_change` - current time (find a Ruby method that provides that)
-#  `hunger_level` - 3.0
+#  `hunger_level` - 5.0
 
-# 3. When creating a new person, we should provide only an argument of a name and we **could** provide an argument of a hunger_time but not necessarily;
+# 2c. write `attr_` macros for each of the attributes; follow your own judgement but also keep in mind that: 
+# - name will remain unchanged in this class but we will want to read it;
 
-# 4. Test if you can create a person and if this person can be instantiated with/out the argument of `hunger_time` (hint: create two instances)
+# 3. Add an instance behavior `Person#shower`. Its body can be empty, return whatever you want or just puts something.
 
-# 5. Test if you can read all the attributes you are supposed to read and change all the attributes you are supposed to change; check if it errors out when you do the opposite;
+# 4. If you have time: Test if you can create a person and if this person can be instantiated with/out the argument of `hunger_time` (hint: create two instances). Test if you can call `shower` method on a person.
 
-# 6. Add a class variable of "bubbles" (`@@bubbles`). The variable should hold a value of a string: "bubbles everywhere".
+# 5. If you have time: Test if you can read all the attributes you are supposed to read and change all the attributes you are supposed to change; check if it errors out when you do the opposite;
 
-# 7. Add a class variable of "all" (`@@all`) that hold an empty array.
+# 6. Add a class variable of "bubbles". The variable should hold a value of a string: "bubbles everywhere".
 
-# 8. Add an instance behavior `Person#shower`. Its body can be empty, return whatever you want or just puts something.
+# 7. Add a class variable of "all" that hold an empty array.
 
-# 9. Add a class behavior `Person.all`, which returns all the instances of a person we have created. Remember to make sure that every new instance created is pushed into the `@@all` array.
+# 8. Add a class behavior `Person.all`, which returns all the instances of a person we have created. Remember to make sure that every new instance created is pushed into the `@@all` array.
 
-# Test whether you are getting an array of all instances when you call `Person.all`.
+# 9. Test whether you are getting an array of all instances when you call `Person.all`.
 
-# Add a class method that returns an array of names of the instances called `names_only`
+# 10. 💯 Add a class method that returns an array of names of the instances called `names_only`
 
-# Test whether you are getting an array of all names when you call `Person.names_only`.
+# 11. 💯  Test whether you are getting an array of all names when you call `Person.names_only`.
