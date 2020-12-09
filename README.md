@@ -14,6 +14,7 @@ Missing something? Ping your lead on Slack. (Also, here is [all the code](https:
 | Pair Programming like a Pro | [Video]() | [Code]() | [Chat]() | - |
 | Self, class methods, instance methods | [Video](https://youtu.be/Ydt8Anve1A4
 ) | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/03-Self-Class-Methods-Class-Variables) | [Chat](https://github.com/learn-co-students/nyc04-seng-ft-120720/blob/main/chats/W1D2-ClassesInstances.txt) | - |
+| 🎁 OO Person Walkthrough 🎁 | [Video](https://flatironschool.zoom.us/rec/play/6ZB-dOj9qjo3SdfEtQSDAvRxW9W-fays1SBMrPRenhu1BiZVNVWvZ-ZHN-TWQKBkWa4mMabVLjyZhFGH?continueMode=true) | - | - | - |
 | Ruby relationships: one-to-many | -  | - |- | - |
 | Ruby relationships: Many-to-many | - | - | - | - |
 | Intro to ActiveRecord | -  | - |- | - |
