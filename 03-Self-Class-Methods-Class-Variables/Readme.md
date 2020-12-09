@@ -10,10 +10,9 @@
 - [ ] Learn one programming joke
 
 ## Practice reading existing code base
-1. Read code in `run.rb` out loud to each other -> e.g. "this is an initialize method that takes in 4 parameters and then declares an instance variable of X with the value of Y". Answer this question:
+1. Read code in `run.rb` and answer this question:
 - what are `attr_reader` and `attr_accessor` doing?
-- how many instance variables is every instance carrying? 
-- where is the data for `number_of_legs` coming from?
+- how many instance variables is every instance holding? 
 - how many instance methods each instance can perform?
 2. Run the methods that are at the bottom of the file and answer these questions:
 - which method is invoked incorrectly and why?
