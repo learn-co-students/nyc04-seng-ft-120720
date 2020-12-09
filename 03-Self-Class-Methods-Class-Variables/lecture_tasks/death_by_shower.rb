@@ -66,8 +66,8 @@ class Person
     def check_hunger 
         if hungry_yet? #if check_hunger method returns true
             #if it's true, the hunger_level drops
-            # !!!! THIS NEEDS TO BE AN INSTANCE VAR IF YOU WANT TO USE "-=" operator (method cannot -= from itself)
-            @hunger_level -= hunger_time
+            # !!!! THIS NEEDS TO BE AN INSTANCE VAR OR SELF.HUNGER_LEVEL IF YOU WANT TO USE "-=" operator (IMPLICIT self method cannot -= from itself)
+            self.hunger_level -= hunger_time
             #and we update the last hunger change
             last_hunger_change = Time.now
         end
