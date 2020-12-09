@@ -7,7 +7,7 @@
 - [ ] Check what `self` is
 - [ ] Call methods on the implicit or explicit `self`
 - [ ] Explain the difference between `variable`, `@variable` and `@@variable`
-- [ ] Learn one programming joke
+- [ ] Learn one programming joke, see an example of recursion and stack overflow
 
 ## Practice reading existing code base
 1. Read code in `run.rb` and answer this question:
