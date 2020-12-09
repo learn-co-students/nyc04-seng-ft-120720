@@ -1,0 +1,87 @@
+14:04:20	 From Josh Frank : @@confusing
+14:20:10	 From Jordan Carroll : creating a getting for breed
+14:20:10	 From Josh Frank : They’re allowing us to get and set
+14:20:20	 From Josh Frank : Does .initialize count as an instance method?
+14:21:50	 From Simon Jacobs : ^ same question
+14:22:01	 From Jonathan Brinson : ^
+14:22:02	 From Josh Frank : Thanks to shmuly for asking this great question in our breakout room
+14:28:05	 From darien bryant : Its not mentioned because its hard coded?
+14:28:14	 From darien bryant : “Number of legs”
+14:28:51	 From Josh Frank : It’s not a parameter because we’re hopefully not going to be cutting off dog legs
+14:28:56	 From Danny Sasse (he/him) : Its not in the attr_ macros because the developer did not want the user to be able to call the number_of_legs variable or to change it
+14:29:00	 From Josh Frank : ^
+14:29:12	 From darien bryant : Thanks Danny!
+14:33:39	 From madiwa simon : Its hardcode
+14:36:10	 From Josh Frank : It’s because it’s an instance variable?
+14:36:18	 From Lauren Gifford : instance variables were initialized so are always accessible
+14:36:22	 From Simon Jacobs : Yeah that’s where my head is at ^
+14:36:31	 From Danny Sasse (he/him) : The attr_ macros only affect our ability to read it directly or change it
+14:36:39	 From Josh Frank : Thanks Danny n simon
+14:36:40	 From Danny Sasse (he/him) : It doesn’t mean the variable doesn’t exist if it is already defined
+14:36:59	 From madiwa simon : okay thank you guys
+14:37:44	 From Sylwia Vargas (she/her) : "self is a special variable that points to the object/class that "owns" the currently executing code."
+14:41:26	 From madiwa simon : inception
+14:41:34	 From Josh Frank : inception.pry
+14:41:35	 From menachemmargolis : lol
+14:41:42	 From Danny Sasse (he/him) : Does time change within each pry too?
+14:42:22	 From madiwa simon : Will have to be inside to know
+14:53:21	 From Josh Frank : So like… if we had a City class, and an instance of that class called nyc… nyc.mayor might return “Bill de Blasio” while City.mayor might return a general description of all mayors
+14:53:32	 From Josh Frank : That’s where I’m at :/
+14:53:40	 From Danny Sasse (he/him) : yes
+14:53:44	 From Josh Frank : OK cool
+14:53:46	 From Josh Frank : Thanks Danny
+14:54:23	 From Danny Sasse (he/him) : Like you could use a class method to return an array or count of how many users Twitter has, while each user is an instance
+14:54:31	 From Josh Frank : Cool!
+14:54:34	 From Josh Frank : Thanks Danny
+15:02:01	 From Jennifer Tracy : Thank you Danny good question
+15:13:17	 From madiwa simon : How do you do the short cut to select all the same name inside the program again I forgot cmd + “?”?
+15:13:25	 From John Wisneski : ctrl d
+15:13:41	 From Josh Frank : Select all occurrences
+15:13:43	 From madiwa simon : Oh thank you John
+15:13:47	 From Danny Sasse (he/him) : CMD + D for Mac
+15:13:48	 From Josh Frank : Shift command L
+15:14:07	 From Danny Sasse (he/him) : ^ That selects all instance
+15:14:08	 From madiwa simon : thank you thank you
+15:14:11	 From Josh Frank : Of course
+15:14:17	 From Danny Sasse (he/him) : Cmd + D selects next instance of same thing
+15:14:22	 From Josh Frank : Thanks Danny!
+15:14:36	 From Josh Frank : My bad
+15:15:02	 From Danny Sasse (he/him) : I didn’t know about shift command L, that’s helpful
+15:15:02	 From madiwa simon : That’s helpful also josh. Imma try both
+15:15:04	 From Josh Frank : Isn’t there also a way to define a consonant with a $?
+15:15:08	 From Josh Frank : $CONSTANT
+15:15:19	 From Josh Frank : Lol sorry *constant not consonant
+15:15:23	 From Danny Sasse (he/him) : $ is global variable outside of classes
+15:15:28	 From Josh Frank : Cool, thanks Danny
+15:15:31	 From Danny Sasse (he/him) : CAPITAL is constant outside of class
+15:15:33	 From Nicholas Repasy : truuu
+15:15:36	 From Danny Sasse (he/him) : And apparently in classes....
+15:15:36	 From Nicholas Repasy : thanks danny
+15:15:36	 From Josh Frank : Thanks guys
+15:15:53	 From madiwa simon : nice info
+15:15:58	 From Josh Frank : Agreed
+15:16:38	 From John Wisneski : https://medium.com/@hasibulc/visual-studio-code-shortcuts-6f0122109532
+15:16:47	 From Josh Frank : Thanks John
+15:16:56	 From madiwa simon : Thanks john
+15:18:21	 From madiwa simon : that was my idea for my blog to do shortcuts but hasibul beat me to it.
+15:18:42	 From Sam Hall : https://en.wikipedia.org/wiki/Zucchini
+15:18:50	 From Sam Hall : courgette^
+15:19:23	 From darien bryant : Thank you - I had no idea what that was haha
+15:19:57	 From Alex Marz : Lol same thanks sam
+15:20:08	 From Josh Frank : English is a beautiful language…
+15:21:51	 From Danny Sasse (he/him) : Some of the  optional labs yesterday used Class methods
+15:22:00	 From Danny Sasse (he/him) : As aplace to start Woodelin
+15:44:05	 From darien bryant : Great job!
+15:44:18	 From Simon Jacobs : ^
+15:49:15	 From Josh Frank : Woodelin, self is like a terrorist attack on my mind
+15:49:22	 From Josh Frank : It makes me want to hurl
+15:51:48	 From Josh Frank : I want to rinse lather repeat my will to live right now
+15:52:50	 From darien bryant : Wouldn’t that create an infinite loop?
+15:52:55	 From Josh Frank : ^^
+15:53:05	 From Josh Frank : Nailed it Darien
+15:53:06	 From darien bryant : Calling itself within the method
+15:53:26	 From darien bryant : Haha gotcha
+15:53:42	 From Josh Frank : My stomach is experiencing a stack overflow right now
+15:54:04	 From madiwa simon : haha
+15:54:08	 From Nicholas Repasy : ba dum tssss
+15:54:10	 From Mary Dick : 😂
