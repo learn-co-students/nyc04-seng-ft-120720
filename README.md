@@ -12,8 +12,7 @@ Missing something? Ping your lead on Slack. (Also, here is [all the code](https:
 | Intro to OO in Ruby: Classes, Instances, Instance variables | [Video](https://youtu.be/ubTWjWTxD-I) | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/02-Classes-Instances-Attributes) | [Chat](https://github.com/learn-co-students/nyc04-seng-ft-120720/blob/main/chats/W1D2-ClassesInstances.txt) | - |
 | Logistics Talk with Signe | [Video](https://flatiron-school.slack.com/files/ULQCJ0QJ3/F01GMUHJ1PE/logistics_talk_12.8.mp4?origin_team=T02MD9XTF&origin_channel=C018FCY74Q7) | - | - | [Slides](https://flatiron-school.slack.com/files/ULQCJ0QJ3/F01GCMQ8HL5/nyc_se_logistics_deck_12.8.pdf?origin_team=T02MD9XTF&origin_channel=C018FCY74Q7) |
 | Pair Programming like a Pro | [Video]() | [Code]() | [Chat]() | - |
-| Self, class methods, instance methods | [Video](https://youtu.be/Ydt8Anve1A4
-) | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/03-Self-Class-Methods-Class-Variables) | [Chat](https://github.com/learn-co-students/nyc04-seng-ft-120720/blob/main/chats/W1D2-ClassesInstances.txt) | - |
+| Self, class methods, instance methods | [Video](https://youtu.be/Ydt8Anve1A4) | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/03-Self-Class-Methods-Class-Variables) | [Chat](https://github.com/learn-co-students/nyc04-seng-ft-120720/blob/main/chats/W1D2-ClassesInstances.txt) | - |
 | 🎁 OO Person Walkthrough 🎁 | [Video](https://flatironschool.zoom.us/rec/play/6ZB-dOj9qjo3SdfEtQSDAvRxW9W-fays1SBMrPRenhu1BiZVNVWvZ-ZHN-TWQKBkWa4mMabVLjyZhFGH?continueMode=true) | - | - | - |
 | Ruby relationships: one-to-many | -  | - |- | - |
 | Ruby relationships: Many-to-many | - | - | - | - |
