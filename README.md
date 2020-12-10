@@ -16,6 +16,7 @@ Missing something? Ping your lead on Slack. (Also, here is [all the code](https:
 | 🎁 OO Person Walkthrough 🎁 | [Video](https://flatironschool.zoom.us/rec/play/6ZB-dOj9qjo3SdfEtQSDAvRxW9W-fays1SBMrPRenhu1BiZVNVWvZ-ZHN-TWQKBkWa4mMabVLjyZhFGH?continueMode=true) | - | - | - |
 | Ruby relationships: one-to-many | [Video](https://flatironschool.zoom.us/rec/play/JGswtRMzIiyUzp5E6o73LdfeuIwi5sFn6O6AssBZBSqD6vcywbxHPoTN0IvpM6_c2fpLSuYbWgOzywjh.I01srxaayUOK2LhJ?continueMode=true&_x_zm_rtaid=BRYBS4nwQ3uAKFPran4ruQ.1607614705835.f3e14543b27f148b054418c3cbc0d346&_x_zm_rhtaid=989)  | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/04-one-to-many) |- | - |
 | 🎁 OO Pets Walkthrough 🎁 | [Video](https://flatironschool.zoom.us/rec/play/u8Evd-79-DI3S9eVtASDU_J_W43pJ6Os0SYc86Zbyhq9USEHNVOnNecQZeZz9AvgqWNiH9KVroowRZJX) | - | - | - |
+| Initializing objects in one-to-many | - | - | - | - |
 | Ruby relationships: Many-to-many | - | - | - | - |
 | Intro to ActiveRecord | -  | - |- | - |
 | Review: AR CRUD | -  | - | - | - |
