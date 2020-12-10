@@ -5,7 +5,7 @@ require_relative 'models/tweet'
 
 coffee_dad = User.new("coffee dad", "a dad who loves coffee#")
 annie = User.new("annie the coach", "i love js!!!!! and bubble tea")
-
+test = "what"
 tweet1 = Tweet.new("just gimme coffee", coffee_dad)
 tweet2 = Tweet.new("what is self", coffee_dad)
 tweet3 = Tweet.new("have #a coffee", coffee_dad)
