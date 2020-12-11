@@ -13,13 +13,14 @@
 
 * Quick review of one-to-many:
   * Single Source of Truth Principle:
+    - "Every model should only keep track of its own instances"
     - "Class can only store information about their own instances"
     - "Can’t steal child from other family"
     - "Don’t add stuff where they are not supposed to be"
   * What is an example of one-to-many relationship:
     - Tweet belongs to a User, User has many Tweets;
     - Comment belongs to a Video, Video has many Comments;
-  * In one-to-many relationship (e.g. Tweet >- User), on which side do I treat the instance as a parameter to initialize to connect the two models?
+  * In one-to-many relationship (e.g. Tweet >- User),  which side do I treat the instance as a parameter to initialize and connect the two models?
     - when initializing Tweet, we pass a User instance as an argument;
     - when initializing Comment, we pass a Video instance as an argument;
   * In one-to-many relationship, can a User have 0 Tweets?
@@ -30,12 +31,16 @@
 
 ## Many-to-Many
 1. One-to-many
-- Tweet User
-- League Team Player
-- City School Student
+- Tweet >- User
+- League -< Team -< Player
+- City -< School -< Student
 
 2. Many-to-many
-3 mins to come up with examples
+- Movie -< Role >- Actor
+- Doctor -< Appointment >- Patient
+- lesson -< course/subject >- student
+- App -< Repo >- Coder
+- song -< band >- musician
 
 ---
 
@@ -43,10 +48,12 @@
 
 Doctor and Patiens
 
+YAGNI -> you aren't gonna need it!
+
 * How many classes do we need?
 * Let's discuss the attributes
-    * Doctor: ?
-    * Patient: ?
+    * Doctor: :name, :specialty
+    * Patient: :name
     * ?
 * Let's discuss the methods
     * What are the minimum methods we are going to need?
