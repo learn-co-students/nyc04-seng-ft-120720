@@ -9,15 +9,21 @@ require_all 'models'
 # require_relative 'models/patient.rb'
 
 # TEST DATA
-doctor1 = Doctor.new("Dr Evil", "evilness") #will have one appt
-doctor2 = Doctor.new("Dr Peppers", "necromancy") #will have many appt
-doctor3 = Doctor.new("Dr Oz", "optometry", "London") #will have no appt
-doctor4 = Doctor.new("Dr Genius", "brain power") 
+doctor1 = Doctor.new("Dr Peppers", "necromancy") #will have many appt
+doctor2 = Doctor.new("Dr Oz", "optometry") #will have no appt
+doctor3 = Doctor.new("Dr Genius", "brain power") #will have one appt
 
 patient1 = Patient.new("Hasibul") #will have one appt
 patient2 = Patient.new("Sylwia") #will have many appt
-patient3 = Patient.new("Michelle") #one appt
-patient4 = Patient.new("Signe") #no appt
+patient3 = Patient.new("Signe") #no appt
+
+# APPOINTMENT DATA
+appt1 = Appointment.new("25 Aug", "NYC", doctor1, patient1)
+appt2 = Appointment.new("4 Sep", "London", doctor1, patient2)
+appt3 = Appointment.new("14 July", "Bushwick", doctor1, patient2)
+appt4 = Appointment.new("1 Jan", "Zielona Góra", doctor3, patient2)
+
+doctor1.new_appointment("asap", "here", patient1)
 
 # building many-to-many relationship:
 # 1. create a file with the Appointment class
