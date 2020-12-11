@@ -1,0 +1,157 @@
+09:16:33	 From Josh Frank : There is a SERIOUS laptop/computer shortage right now
+09:17:18	 From Hasibul Chowdhury : I lost my cursed child stickers :(
+09:17:26	 From Josh Frank : HASIBUL NOOOOOO
+09:17:33	 From Josh Frank : :( :( :(
+09:20:31	 From Josh Frank : Death by fluff
+09:20:52	 From John Wisneski : https://en.wikipedia.org/wiki/The_Stuff
+09:21:25	 From Danny Sasse (he/him) : Is “fluffy” just a nice way of telling us all about the Covid weight?
+09:21:38	 From Josh Frank : BAHAHAHA
+09:21:47	 From Josh Frank : Nah Danny we don’t judge
+09:21:56	 From Josh Frank : :) :) :)
+09:22:11	 From Josh Frank : Fluffy = friendly
+09:24:14	 From Josh Frank : dId I pAsS mS PuFf
+09:27:37	 From Josh Frank : Recipe for .all
+* Define a @@all class variable
+* Define a self.all class method
+* << push the newly created instance to the @@class_variable
+09:27:49	 From Danny Sasse (he/him) : In the Week 1 Readme is says to practice the Code Challenge Practice labs this weekend. Have these been published yet? Or are these the Boating & Show/Tel Lab?
+09:28:44	 From Nicholas Repasy : def could use that
+09:28:48	 From Josh Frank : ^
+09:30:56	 From Josh Frank : Every model should only keep track of its own instances
+09:33:11	 From Danny Sasse (he/him) : So for example, we shouldn’t make a @@all_users variable inside of the tweet class and shove all of the passed users into it
+09:33:17	 From Josh Frank : ^^^
+09:36:32	 From Josh Frank : Coffee dad
+09:44:28	 From madiwa simon : Doctors >-< patients
+09:44:32	 From Josh Frank : * Cocktail has many Liquors - Liquor can belong to many Cocktails
+09:44:37	 From menachem margolis : Classes students
+09:44:38	 From Shmuly Levitin : Cousins - cousins
+09:44:43	 From Nicholas Repasy : band>--musician--<songs
+09:44:44	 From Jonathan Brinson : Musicians >-< genre
+09:44:50	 From Michael Cardona : Books >--< authors
+09:44:52	 From John Wisneski : Compilation Album Artists
+09:44:52	 From madiwa simon : Apps>-< Coders
+09:44:52	 From Danny Sasse (he/him) : @kody shared Teachers >-< Students
+09:44:55	 From Jennifer Tracy : Stores>-<shoppers
+09:44:56	 From Yevgeniy Valdman : Mobil has many customers, customers have access to many mobil stations
+09:44:59	 From Woodelin Florveus : books authors
+09:45:01	 From Josh Frank : * LegoModel has many LegoBricks - LegoBrick can be used in many LegoModels
+09:45:12	 From Melissa Faulner (she/her) : Restaurants >-< Customers
+09:45:46	 From Josh Frank : Lol
+09:45:57	 From Josh Frank : How about Menu has many Dishes - Dishes can belong to many Menus
+09:46:00	 From Josh Frank : Instead of alcohol
+09:46:09	 From Jonathan Brinson : How about cousins >-< relatives?
+09:46:14	 From Josh Frank : ^
+09:49:12	 From Danny Sasse (he/him) : Course
+09:49:19	 From Sam Hall : course
+09:49:22	 From menachem margolis : subject
+09:49:55	 From Danny Sasse (he/him) : I was suggesting Course in place of the Class word we were trying to replace
+09:50:17	 From Josh Frank : Customer -< ShoppingTrip >- Store
+09:50:56	 From Josh Frank : Maybe band in the middle?
+09:51:20	 From Jonathan Brinson : ^
+09:51:21	 From Nicholas Repasy : my thinking was a musician can make many different songs, for different bands
+09:51:46	 From Nicholas Repasy : got it
+09:52:09	 From Josh Frank : Song -< Band >- Musician
+09:53:48	 From darien bryant : I like the common denominator perspective!
+09:53:55	 From Josh Frank : Totally
+09:53:58	 From Sam Hall : Is this less about what is “right” “correct” and more about how we’re trying to communicate info through an app or program?
+09:54:03	 From Josh Frank : ^^^^
+09:54:27	 From menachem margolis : Thank you Darien
+09:54:36	 From Josh Frank : It seems like we’d put @@all in the joiner?
+09:55:28	 From Josh Frank : name
+09:55:30	 From John Wisneski : their name
+09:55:31	 From Josh Frank : specialty
+09:55:39	 From Josh Frank : Business hours
+09:56:10	 From Josh Frank : KISS: Keep It Simple & Stupid
+09:56:45	 From John Wisneski : Isn't it Keep It Simple, Stupid
+09:56:51	 From Josh Frank : Thanks, John
+09:57:30	 From madiwa simon : yeah John is right.
+09:57:43	 From madiwa simon : Come on Dwight
+09:57:50	 From Josh Frank : -_-
+10:13:41	 From Josh Frank : NICE Woodelin
+10:13:53	 From John Wisneski : When is it better to make the different save method to do the  @@all << self rather than in the initialize
+10:14:15	 From Josh Frank : Great question, maybe when saving things requires some special operation
+10:15:06	 From Simon Jacobs : I know this was answered but where is the shortcut to replace all without doing control F
+10:15:13	 From Josh Frank : Shift command l
+10:15:16	 From Simon Jacobs : Thank you!
+10:15:16	 From John Wisneski : ctrl d
+10:16:58	 From John Wisneski : ctrl /
+10:16:59	 From Simon Jacobs : Command /
+10:17:00	 From Jaclyn Barrera : cmd /
+10:17:16	 From Jonathan Brinson : If run.rb was in the same directory as doctor.rb and patient.rb, would you not need to run the gem?
+10:17:22	 From Nicholas Repasy : ^^^
+10:17:30	 From Nicholas Repasy : was trying to type the same question lol
+10:17:32	 From Danny Sasse (he/him) : You would need to do require_all ‘.’
+10:17:33	 From Simon Jacobs : Yeah that please
+10:17:43	 From Josh Frank : Thanks Danny
+10:17:48	 From Danny Sasse (he/him) : Sorry, require_all
+10:17:49	 From Simon Jacobs : Thank you Danny
+10:17:52	 From Danny Sasse (he/him) : require_all ‘.'
+10:17:56	 From Danny Sasse (he/him) : Single quotes
+10:18:19	 From Michael Cardona : do you need to? 
+10:18:29	 From Michael Cardona : I thought you don't like the pets lab
+10:18:29	 From Danny Sasse (he/him) : Not sure, that’s just what she did in the video yesterday
+10:18:49	 From Nicholas Repasy : in the partner lab yesterday, it seemed that if theyre in the same directory, the require relativre wasn't need
+10:18:55	 From Jonathan Brinson : ^
+10:18:55	 From Nicholas Repasy : needed*
+10:19:10	 From Nicholas Repasy : like doctor.rb and patient.rb can access each other right now
+10:21:38	 From Danny Sasse (he/him) : scenarios
+10:22:20	 From Josh Frank : I think it needs a default Location
+10:24:52	 From John Wisneski : OB/GYN is sort of the opposite of a necromancer 
+10:24:57	 From Josh Frank : BAHAHAHAHAHA
+10:25:02	 From Josh Frank : Best comment of the thread John!!!!!
+10:25:04	 From Simon Jacobs : LOL
+10:25:16	 From Sam Hall : 🧐
+10:25:27	 From Josh Frank : date
+10:25:28	 From Josh Frank : time
+10:25:47	 From Sam Hall : Location
+10:26:05	 From John Wisneski : doctor and patient
+10:26:35	 From Lauren Gifford : one to many
+10:31:14	 From darien bryant : Bushwick and London in the same day - busy doctor
+10:31:22	 From Josh Frank : It’s Doctor Who
+10:31:25	 From Danny Sasse (he/him) : Zooooooooom
+10:31:28	 From Josh Frank : The Tardis is quick
+10:31:43	 From menachem margolis : Mans a legend
+10:31:48	 From madiwa simon : Doc 2 no appointment
+10:31:54	 From Jonathan Brinson : ^
+10:31:54	 From Josh Frank : ^^^
+10:38:27	 From Michael Cardona : is it erd?                                                                                                                                                                                        
+10:38:34	 From Jonathan Brinson : yep
+10:38:40	 From Josh Frank : Thanks Jonathan
+10:38:45	 From Michael Cardona : what does that stand for?
+10:39:01	 From Josh Frank : Entity Relationship Diagram
+10:41:39	 From Danny Sasse (he/him) : We can .select from Appointment.all
+10:41:43	 From Josh Frank : ^^^^^
+10:43:02	 From Sam Hall : appointment.all.select
+10:43:10	 From Jonathan Brinson : ^^
+10:43:35	 From Josh Frank : Bookmark this page guys
+10:43:36	 From Josh Frank : https://medium.com/@sylwiavargas/cheatsheet-which-ruby-iterator-should-i-use-7b537bead286
+10:43:46	 From Jonathan Brinson : Thanks dude
+10:43:55	 From Simon Jacobs : Yeah that’s great thanks Josh
+10:43:59	 From Josh Frank : Of course thank Sylwia!! She wrote it!!
+10:45:48	 From Danny Sasse (he/him) : For that diagram, I also have found it help to add the case of “Do I want to do something specific with each value” to .map.      When I think about it as just changing the existing array I forget to use it for the “do something with each individual” case
+10:46:12	 From Josh Frank : Awesome Danny thanks for that
+10:49:29	 From Danny Sasse (he/him) : This sounds like a case I was trying to describe… she is going to ask ask appointment for its doctors, so .map would be good even though we aren’t trying to change the doctor which is how I originally interpreted the diagram
+10:49:50	 From Josh Frank : So interesting!!!
+10:50:05	 From Josh Frank : Danny, maybe collect?
+10:50:35	 From Simon Jacobs : Find?
+10:50:52	 From Shmuly Levitin : ^^
+10:51:18	 From Danny Sasse (he/him) : Well there we go Josh haha
+10:51:29	 From Josh Frank : Thanks Danny!!!!
+10:52:23	 From Nicholas Repasy : that's what map does right?
+10:52:26	 From Josh Frank : Yup
+10:52:30	 From Hasibul Chowdhury : Yes
+10:52:36	 From Nicholas Repasy : im a genius
+10:52:44	 From Josh Frank : True fact <3
+10:52:54	 From Nicholas Repasy : big brain
+10:53:05	 From Josh Frank : STONKS
+10:53:11	 From Josh Frank : :) :) :)
+10:58:01	 From Kody Samaroo : Does that work with other enumerable that take a do code block?
+10:58:04	 From Danny Sasse (he/him) : Can you chain methods using your pretzel way?
+10:58:15	 From Danny Sasse (he/him) : Such as (&:patient:uniq)
+10:58:44	 From Sam Hall : Good q^
+11:09:26	 From Danny Sasse (he/him) : It sounds to me like it can be done, its just used in most practices?
+11:09:36	 From Danny Sasse (he/him) : Isn’t used*
+11:12:36	 From Josh Frank : Not sure, but I think a Show & Tell is scheduled now
+11:16:54	 From Josh Frank : ^ Maybe that would violate the single source of truth principle
+11:17:20	 From Josh Frank : Nvm
+11:17:22	 From Josh Frank : Lol
