@@ -87,3 +87,7 @@ Doctor and Patiens
     * `#patients` -- all the patients of the given doctor
 * A patients has list of doctors!
     * `#doctors` -- all the doctors of the given patient
+
+* Adding a new appointment from the Doctor side:
+  - `Doctor#new_appointment` would take all the attributes of an appointment minus the doctor instance; in the method body, we will call on `Appointment.new` and pass `self` in place of a doctor argument;
+* analogically from the Patient side
