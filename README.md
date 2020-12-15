@@ -20,6 +20,7 @@ Missing something? Ping your lead on Slack. (Also, here is [all the code](https:
 | Ruby relationships: Many-to-many | [Video](https://youtu.be/jsUVd6kRiH0) | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/05-many-to-many) | [Chat](https://github.com/learn-co-students/nyc04-seng-ft-120720/blob/main/chats/W1D5-ManyToMany.txt) | - |
 | 🎁 Boating school review 🎁 | [Video](https://flatironschool.zoom.us/rec/play/75Qvd73--Dk3G9ySsASDC_8oW42_e6us0HVL-qdezB62VCRWZ1uuNLFDZbDWMNYhxv5LGcSfS8q8FMgY?continueMode=true&_x_zm_rtaid=Ih2ejevRRZiXLcBCkBEFpg.1596815408554.11328992d839805c03884210ee45272d&_x_zm_rhtaid=265) | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/05%2C5-Boating-School-Review) | - | - |
 | Mock Code Challenge Review w/ Annie | [Video1](https://slack-files.com/T02FZRG24-F01GTA8JTRB-ae522bbb6a) [Video2](https://slack-files.com/T02FZRG24-F01HL85QSAU-1cc61ced74)| [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/05%2C5-mock-review-Annie) | - |
+| Mock Code Challenge Review w/ Hasibul | [Video1](https://www.youtube.com/watch?v=kyziR32maGw) [Video2](https://www.youtube.com/watch?v=LkaXsw2wGhs)| [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/05%2C5-mock-review-Hasibul) | - |
 | Intro to ActiveRecord | -  | - |- | - |
 | Review: AR CRUD | -  | - | - | - |
 | Lecture: AR Relationships | -  | - | - | - |
