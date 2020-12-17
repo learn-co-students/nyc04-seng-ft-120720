@@ -263,9 +263,25 @@ Topics In OO - Object Relationships In Ruby
 
 ---
 
+## Week 2 Schedule
+
+Week two of every module is usually marked by two very important events: a code challenge and the beginning of the project week. 
+The days before the code challenge are calmer lab-wise. It is all about solidifying what you have learned so far, discovering new blank spots and asking more of the clarifying questions. Then, you have a code challenge and individual personalized feedback and a few days later you start the project week. 
+In Mod1 Week2 you will:
+- solidify what you learned in Mod1 Week1;
+- practice with different prompts;
+- learn about inheritance in Ruby;
+- write some SQL;
+- set up your first databases;
+- become familiar with ActiveRecord design pattern and use ActiveRecord gem for database management;
+- create non-trivial domain models;
+- get to know who your partner and deliverables are for the project week;
+
 ### W2 Monday
 
 #### Self-check questions
+- Can I explain what I am doing when writing code for a deliverable?
+
 Mod1 code challenge tests the following concepts and skills (and you have been practicing them since you started):
 - **code structure and maintainability**: are your variables properly named? is your code indented? do you use helper methods or at least try to?
 - **class vs instance**: how do we define a class (class Dog; end)? how do we instantiate an instance (initialize)? how do we define #instance and .class methods? how do we use @instance and @@class variables?
@@ -291,6 +307,12 @@ domain model: can you differentiate and properly draw different types of relatio
 
 ---
 ### W2 Wednesday
+
+#### Self-check questions
+- What are primary keys? What are foreign keys? How are they related with one another?
+- What is the purpose of SQL?
+- Why do we need to use databases?
+- How do we CRUD on rows of a table?
 
 #### Labs
 - Getting Started With SQL
@@ -357,6 +379,15 @@ domain model: can you differentiate and properly draw different types of relatio
 ### W2 Thursday
 
 #### Self-Check questions
+- What is ActiveRecord?
+- How does AR relate to SQL and Ruby?
+- What is `rake console`?
+- What's the difference between a model and a table?
+- Can a database have many tables?
+- What is meant by migration?
+- What's the difference between `.new` and `.create`?
+- What does CRUD mean?
+
 
 #### Labs
 Active Record Associations
@@ -371,6 +402,8 @@ Active Record Associations
 ### W2 Friday
 
 #### Self-Check questions
+- How do I check if I saved an instance to the database?
+- What are examples of ActiveRecord methods associated with each of the CRUD actions? 
 
 #### Labs
 Catch up on the previous labs
@@ -379,6 +412,10 @@ Catch up on the previous labs
 ### W3 Monday
 
 #### Self-Check questions
+- How do I associate two models? 
+- What do `has_many` and `belongs_to` do?
+- What is the syntax of the has-many-through relationship in ActiveRecord?
+- How can I access all the instances associated with another one from a different model?
 
 #### Labs
 Catch up on the previous labs
@@ -387,14 +424,8 @@ Catch up on the previous labs
 ### W3 Tuesday
 
 #### Self-Check questions
-
-#### Labs
-Catch up on the previous labs
-
----
-### W3 Wednesday
-
-#### Self-Check questions
+- How many models is correct?
+- How many models is too many models?
 
 #### Labs
 - Getting Data From Remote Sources
@@ -413,9 +444,14 @@ Catch up on the previous labs
     - Review Of Object Orientation And Scraping
 
 ---
-### W3 Thursday
+### W3 Wednesday
 
 #### Self-Check questions
+- How does Internet work? 
+- What is `GET` request?
+- What are "server" and "client"?
+- What does "JSON" mean?
+- What does "web scraping" mean?
 
 #### Labs
 - Additional Practice: Using Yield And Blocks
@@ -433,6 +469,14 @@ Catch up on the previous labs
     - Regex Basics
     - Ruby Methods With Regex
     - Regex Lab
+
+---
+### W3 Thursday
+
+### Labs
+Catch up on the previous labs
+
+
 ---
 
 ## Code Challenge Rubric
