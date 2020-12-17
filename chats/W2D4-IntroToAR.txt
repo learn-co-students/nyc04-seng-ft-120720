@@ -70,3 +70,84 @@ PART 1:
 12:22:32	 From Alex Marz : Oh nvm she just said that lol
 12:22:48	 From Josh Frank : Thanks for clarifying Alex
 PART 2:
+13:34:46	 From Josh Frank : TOUCHETH NOT THE SCHEMA
+13:35:51	 From Josh Frank : Running rake db:create_migration again will overwrite a previous schema?
+13:40:03	 From Danny Sasse (he/him) : When you run rake db:migrate does it run all of the down migrations? Or do you have to specify if there is more than one? Or do you only ever do them one at a time?
+13:43:45	 From John Wisneski : Can you roll forward?
+13:43:54	 From Woodelin Florveus : we get most of our gem files from the website you mentioned earlier i want to make sure my file have all the tools
+13:48:42	 From Josh Frank : Hey Woodelin that’s right I think
+13:49:26	 From Josh Frank : If you want to check if you have it, you can type “which” in the terminal
+13:49:36	 From Josh Frank : So “which bundle” will tell you where bundle is if it’s installed
+13:49:48	 From Woodelin Florveus : thanks josh
+13:49:52	 From Josh Frank : You got it
+13:54:54	 From John Wisneski : Is it best practice to add things one at a time with migration or is it okay to do several changes in a migration
+13:54:57	 From Woodelin Florveus : anyone got a link to the dics
+13:55:00	 From Woodelin Florveus : docs
+13:55:50	 From Sylwia Vargas (she/her) : https://guides.rubyonrails.org/active_record_migrations.html
+13:55:56	 From Josh Frank : Thanks Sylvia!
+13:56:02	 From Josh Frank : Sylwia!
+14:00:48	 From Josh Frank : SYLWIA’S TRICK QUESTIONS smh
+14:02:56	 From Hasibul Chowdhury : (The logger is helpful in the later phases too)
+14:03:06	 From Josh Frank : Thanks Hasibul
+14:08:58	 From Josh Frank : Through the config file?
+14:11:39	 From darien bryant : Is there a reason for all the random symbols in the database?
+14:11:57	 From Woodelin Florveus : good question
+14:12:04	 From madiwa simon : I think that’s the same thing as binary coding
+14:12:13	 From madiwa simon : its like 0001101101101001101010110101010
+14:12:21	 From darien bryant : Gotcha - thanks!
+14:12:23	 From Danny Sasse (he/him) : The Object-Relational-Mapping section on Canvas shows you how these methods are built. Thats what I was working on it lunch, and now I learn that we don’t have to write them ourself =(
+14:12:35	 From Josh Frank : It’s because text files are usually encoded a certain way - and so the text editor is trying to read what it thinks is a text file, but it doesn’t recognize the encoding and so displays that gobbledeygook
+14:12:42	 From Josh Frank : …I think
+14:12:47	 From Josh Frank : Thanks danny
+14:14:24	 From Josh Frank : Is git a form of ORM?
+14:14:53	 From madiwa simon : Yep. All our coding environment is technically simpler way to understand all of the plain computer language. Thanks to the people before us.
+14:15:12	 From Josh Frank : Thanks Madiwa
+14:19:33	 From Alex Marz : So, to confirm, is everything that Sylwia is creating in rake console replacing our console.rb file?
+14:23:29	 From Josh Frank : It serves the same purpose as console.rb, providing a place to play around and test things out
+14:23:41	 From Alex Marz : Gotcha thanks Josh
+14:23:45	 From Josh Frank : You got it
+14:24:04	 From madiwa simon : Thanks josh
+14:24:10	 From Josh Frank : Of course
+14:39:14	 From John Wisneski : https://stackoverflow.com/questions/11945227/is-there-anyway-to-undo-an-activerecord-delete-in-rails-console looks like not really but you can get safe guards like gem papertrail and other stuff
+14:39:23	 From Josh Frank : Thanks John
+14:44:44	 From Josh Frank : Pretty cool how different operations have different colors
+14:44:55	 From Danny Sasse (he/him) : I love the colors
+14:45:03	 From Josh Frank : For emphasis and readability
+14:45:05	 From Josh Frank : Pretty cool
+14:45:36	 From John Wisneski : What happens when you create and you set the id to one in use.
+14:46:05	 From Josh Frank : Good question John
+14:46:24	 From Josh Frank : I don’t think its possible
+14:46:59	 From Josh Frank : Thanks for asking John
+14:47:46	 From John Wisneski : if you manually set an id to say 8 will the next be id 9 or will it go back to the next in the normal sequence
+14:47:48	 From Lauren Gifford : ids are like social security numbers... unique per person(instance)?
+14:48:03	 From Josh Frank : Seems like it Lauren
+14:48:06	 From Danny Sasse (he/him) : Yes Lauren
+14:48:11	 From Josh Frank : Thanks Danny
+14:48:13	 From Jonathan Brinson : Good analogy
+14:48:26	 From Danny Sasse (he/him) : Unless we manually change it, which we “should never ever do” =)
+14:48:33	 From Josh Frank : lol
+14:49:47	 From Alex Marz : The analogy holds, the only people changing SS numbers are bad and wrong lol
+14:49:58	 From Josh Frank : DON’T BE AN IDENTITY THIEF GUYS
+14:50:00	 From Jonathan Brinson : ^^
+14:50:10	 From Jonathan Brinson : And all plants deserve SSNs
+14:50:13	 From Josh Frank : MCGRUFF THE CRIME DOG IS WATCHING
+14:50:22	 From Lauren Gifford : lol
+14:56:16	 From Hasibul Chowdhury : Primary Key?
+14:56:37	 From John Wisneski : The internet confirms
+14:57:15	 From Josh Frank : TEAMWORK
+14:58:15	 From Hasibul Chowdhury : Those darn gooses
+14:58:27	 From Josh Frank : OXES
+14:58:40	 From Sam Hall : lolol
+14:58:43	 From Shmuly Levitin : boxen
+14:59:40	 From Josh Frank : I think the singular is “paparazzo”
+14:59:43	 From Josh Frank : :)
+15:00:17	 From Danny Sasse (he/him) : So in the case of Sheep, will ActiveRecord just have an annuerysm
+15:00:32	 From Josh Frank : YOU KILLED ACTIVE RECORD! YOU BASTARD
+15:01:13	 From Danny Sasse (he/him) : Thats a real question though, does it make a problem that the plural and singular are the same
+15:01:23	 From Josh Frank : Great question Danny
+15:01:32	 From Josh Frank : I assume it would be best to call it “sheeps” anyway
+15:01:46	 From Josh Frank : Or Sheepen
+15:01:54	 From Jordan Carroll : sheeple
+15:01:57	 From Jordan Carroll : lolol
+15:01:59	 From Josh Frank : BAHAHAHA
+15:03:01	 From Sylwia Vargas (she/her) : https://forms.gle/7KBV8Eeghj2rAjgX7

@@ -397,7 +397,20 @@ Catch up on the previous labs
 #### Self-Check questions
 
 #### Labs
-Catch up on the previous labs
+- Getting Data From Remote Sources
+    - **Introduction To Getting Data From Remote Sources** ⭐️
+    - **Sending GET Requests**  ⭐️
+    - Working With APIs Code-Along
+    - Accessing (Fake) Remote Data Lab
+    - Getting Data From Remote Sources Quiz
+    - Getting Data From Remote Sources Bookend
+    - Additional Practice: Getting Data From Remote Sources
+- **Introduction To Getting Data From Remote Sources - Additional Practice**  ⭐️
+    - **Scraping**  ⭐️
+    - Scraping Lab
+    - Kickstarter Scraping Lab
+    - Student Scraper
+    - Review Of Object Orientation And Scraping
 
 ---
 ### W3 Thursday
