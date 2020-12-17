@@ -41,13 +41,43 @@ In order to not leave you feeling tricked, I will gradually fill out this table 
 </tr>
 <tr>
     <td style="text-align:center" width="150px"> <code>def name=(name)</code> </td>
-    <td style="text-align:center" width="150px"> ? </td>
-    <td style="text-align:center" width="150px"> ? </td>
+    <td style="text-align:center" width="150px"> <code>attr_writer</code> </td>
+    <td style="text-align:center" width="150px"> 🦸🏻‍♀️ ActiveRecord 🦸🏻‍♀️ </td>
 </tr>
 <tr>
     <td style="text-align:center" width="150px"> <code>def name</code> </td>
-    <td style="text-align:center" width="150px"> ? </td>
-    <td style="text-align:center" width="150px"> ? </td>
+    <td style="text-align:center" width="150px"> <code>attr_reader</code> </td>
+    <td style="text-align:center" width="150px"> 🦸🏻‍♀️ ActiveRecord 🦸🏻‍♀️  </td>
+</tr>
+<tr>
+    <td style="text-align:center" width="150px"> <code>name</code> + <code>name=</code> </td>
+    <td style="text-align:center" width="150px"> <code>attr_accessor</code> </td>
+    <td style="text-align:center" width="150px"> 🦸🏻‍♀️ ActiveRecord 🦸🏻‍♀️  </td>
+</tr>
+<tr>
+    <td style="text-align:center" width="150px"> <code>User.new() </code> </td>
+    <td style="text-align:center" width="150px"> <code>User.new("Hasibul")</code> </td>
+    <td style="text-align:center" width="150px"> <code>User.new(username: "Hasibul")</code>  </td>
+</tr>
+<tr>
+    <td style="text-align:center" width="150px"> - </td>
+    <td style="text-align:center" width="150px"> <code>User.all</code>, that needs to be written out manually</td>
+    <td style="text-align:center" width="150px"> <code>User.all </code> <br>given to us by <br> 🦸🏻‍♀️ ActiveRecord 🦸🏻‍♀️ </td>
+</tr>
+<tr>
+    <td style="text-align:center" width="150px"> - </td>
+    <td style="text-align:center" width="150px"> <code>User.all.find</code>, that needs <code>User.all</code> to be written out</td>
+    <td style="text-align:center" width="150px"> <code>User.find </code> <br>given to us by <br> 🦸🏻‍♀️ ActiveRecord 🦸🏻‍♀️ </td>
+</tr>
+<tr>
+    <td style="text-align:center" width="150px"> - </td>
+    <td style="text-align:center" width="150px"> <code>User#appointments</code>, that needs to be written out manually</td>
+    <td style="text-align:center" width="150px"> <code>?</code>  </td>
+</tr>
+<tr>
+    <td style="text-align:center" width="150px"> - </td>
+    <td style="text-align:center" width="150px"> <code>User#doctors</code>, that needs to be written out manually</td>
+    <td style="text-align:center" width="150px"> <code>?</code>  </td>
 </tr>
 </table>
 
