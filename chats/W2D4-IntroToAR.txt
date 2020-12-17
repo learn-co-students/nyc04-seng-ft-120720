@@ -1,0 +1,72 @@
+PART 1:
+11:07:31	 From Simon Jacobs : I think what Sylwia means is that :name is not the same as name, so when we interpolate we’re translating it to the value of name (or age or fear etc)
+11:07:34	 From Simon Jacobs : I think
+11:07:53	 From Josh Frank : Thanks Simon
+11:09:47	 From Josh Frank : Great question Michael
+11:11:33	 From Josh Frank : So you can use _ where normal humans use commas in order to make numbers more readable?
+11:11:39	 From Josh Frank : Numbers in excess of 1,000?
+11:12:46	 From Josh Frank : Can we use meta programming to write our attr_accessor?
+11:15:25	 From Josh Frank : https://blog.yechiel.me/
+11:15:29	 From Josh Frank : suicidal_file.rb
+11:16:08	 From Josh Frank : Yechiel means “He shall live” in Hebrew I think
+11:21:54	 From Josh Frank : bahahahaha
+11:23:46	 From Josh Frank : How many arguments can .send() take?
+11:31:33	 From Danny Sasse (he/him) : Unless you’re me, and that doesn’t fix your gem errors =(
+11:31:47	 From Josh Frank : Poor thing Danny >.<
+11:31:50	 From Josh Frank : It’s happened to me too
+11:32:57	 From Danny Sasse (he/him) : Colorize!
+11:34:21	 From Danny Sasse (he/him) : I can chat with you after lecture Woodelin and try to help
+11:34:32	 From Josh Frank : YER A WIZARD DANNY
+11:34:52	 From Danny Sasse (he/him) : I mean.. my gems are still half broken, so don’t expect too much magic haha
+11:35:00	 From Josh Frank : ACCIO GEM
+11:35:20	 From Hasibul Chowdhury : You can install it globally but it is better to bundle install in the local directory to prevent errors
+11:35:29	 From Josh Frank : Thanks Hasibul
+11:35:57	 From Woodelin Florveus : thanks danny your the man again and again
+11:36:01	 From Josh Frank : ^
+11:36:25	 From Hasibul Chowdhury : React packages can get really big, but gitignore files will help you keep your clone clean and lean when you push to GitHub. (Something we will discuss later)
+11:39:10	 From Josh Frank : We’ve been using binding.pry - why not Pry.start?
+11:39:45	 From Hasibul Chowdhury : (Good blog topic *hint hint*)
+11:39:52	 From Josh Frank : Thanks Sylwia and Hasibul
+11:42:41	 From Danny Sasse (he/him) : Sounds like Pry.start allows you to explore everything. bdingin.pry stops the program at a specified point
+11:43:00	 From Josh Frank : Thanks Danny
+11:43:09	 From Josh Frank : Looks like Rake is like a storage locker for your program
+11:50:45	 From Josh Frank : Rubinia
+11:50:52	 From madiwa simon : simple
+11:56:54	 From John Wisneski : Will active record help SQLite with FULL OUTER JOIN ?
+11:58:33	 From Josh Frank : Sweet lord I hope so John
+11:58:38	 From Josh Frank : >.<
+12:02:35	 From John Wisneski : can we clean up the timestamp on the file name?
+12:10:12	 From Hasibul Chowdhury : For the create timestamp? Generally no
+12:14:59	 From Hasibul Chowdhury : Amazing code
+12:15:30	 From Melissa Faulner (she/her) : Do not touch it
+12:15:30	 From Jordan Carroll : do not touch
+12:15:31	 From Simon Jacobs : Touch it
+12:15:31	 From John Wisneski : touch it
+12:15:32	 From Alex Marz : Touch schema
+12:15:32	 From Sam Hall : Don’t touch schema!!
+12:15:35	 From Danny Sasse (he/him) : Never touch any of the files that migrate makes
+12:15:36	 From Jordan Carroll : look but don’t touch
+12:15:36	 From victor cordero : Don’t touch it
+12:15:36	 From Woodelin Florveus : do not write in schema
+12:15:36	 From Jonathan Brinson : Do not touch schema
+12:15:40	 From Josh Frank : Y U TOUCH SCHEMA
+12:15:43	 From Lauren Gifford : no touchy
+12:15:58	 From Woodelin Florveus : schema boujie
+12:16:10	 From Jonathan Brinson : lol
+12:17:27	 From John Wisneski : IF we do type as Boolean will it be back to True/False in Ruby or the 0,1 SQL true/false?
+12:17:39	 From Josh Frank : Hey John, SQL doesn’t have a boolean type
+12:17:47	 From Josh Frank : It’s gotta be an integer, 1 for true, 0 for false
+12:18:25	 From Danny Sasse (he/him) : Right Josh, but since active record is Ruby language, which do we use?
+12:18:25	 From John Wisneski : You are able to call it Boolean SQL just will do it as 01
+12:18:42	 From Alex Marz : Josh is that Blob(binary)
+12:18:48	 From Josh Frank : Thanks Alex
+12:20:51	 From Josh Frank : Great question thanks John
+12:21:27	 From menachem margolis : So “name” etc will be the columns in the database ?
+12:21:45	 From Hasibul Chowdhury : Yes ^
+12:21:46	 From Josh Frank : I believe so Menachem
+12:21:51	 From Josh Frank : Thanks Hasibul
+12:21:54	 From menachem margolis : Thanks
+12:22:25	 From Alex Marz : Everything that we were learning in the SQL labs, is active record just intuitively creating for us?
+12:22:32	 From Alex Marz : Oh nvm she just said that lol
+12:22:48	 From Josh Frank : Thanks for clarifying Alex
+PART 2:

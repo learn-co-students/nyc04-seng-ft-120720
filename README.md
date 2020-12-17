@@ -21,7 +21,7 @@ Missing something? Ping your lead on Slack. (Also, here is [all the code](https:
 | 🎁 Boating school review 🎁 | [Video](https://flatironschool.zoom.us/rec/play/75Qvd73--Dk3G9ySsASDC_8oW42_e6us0HVL-qdezB62VCRWZ1uuNLFDZbDWMNYhxv5LGcSfS8q8FMgY?continueMode=true&_x_zm_rtaid=Ih2ejevRRZiXLcBCkBEFpg.1596815408554.11328992d839805c03884210ee45272d&_x_zm_rhtaid=265) | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/05%2C5-Boating-School-Review) | - | - |
 | Mock Code Challenge Review w/ Annie | [Video1](https://slack-files.com/T02FZRG24-F01GTA8JTRB-ae522bbb6a) [Video2](https://slack-files.com/T02FZRG24-F01HL85QSAU-1cc61ced74)| [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/05%2C5-mock-review-Annie) | - |
 | Mock Code Challenge Review w/ Hasibul | [Video1](https://www.youtube.com/watch?v=kyziR32maGw) [Video2](https://www.youtube.com/watch?v=LkaXsw2wGhs)| [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/05%2C5-mock-review-Hasibul) | - |
-| Intro to ActiveRecord | -  | - |- | - |
+| Intro to ActiveRecord | [Video1](https://youtu.be/uBghb-5_szA) [Video2]()  | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/06-Intro-to-AR-Setup) | [Chat]() | - |
 | Review: AR CRUD | -  | - | - | - |
 | Lecture: AR Relationships | -  | - | - | - |
 | Lecture: More Models + TTY Prompt | -  | -  | - | - |
