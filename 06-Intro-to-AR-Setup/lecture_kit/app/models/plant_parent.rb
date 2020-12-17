@@ -1,3 +1,3 @@
-class PlantParent
+class PlantParent < ActiveRecord::Base
 
 end
