@@ -1,5 +1,5 @@
 Intro to ActiveRecord
-===
+---
 
 ## SWBATs
 - [ ] Implement ActiveRecord in a project
