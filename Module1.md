@@ -263,6 +263,165 @@ Topics In OO - Object Relationships In Ruby
 
 ---
 
+### W2 Monday
+
+#### Self-check questions
+Mod1 code challenge tests the following concepts and skills (and you have been practicing them since you started):
+- **code structure and maintainability**: are your variables properly named? is your code indented? do you use helper methods or at least try to?
+- **class vs instance**: how do we define a class (class Dog; end)? how do we instantiate an instance (initialize)? how do we define #instance and .class methods? how do we use @instance and @@class variables?
+domain model: can you differentiate and properly draw different types of relationships (one-to-many and many-to-many)?
+- **associations**: can you hook up all the models in many-to-many relationship? is it instinctive that a joiner is needed? and that the joiner needs to be instatiated with the instances of the two other models?
+- **traversing the domain**: can you get the information from one end of the domain to the other (e.g. doctor.patients)? Do you know that you need to go through the joiner (first, find all the appointments that belong to the doctor, then take the patients from that array)?
+- **enumerables**: do you know when to use map and select? do you know that find will return an instance and map/select will return the new array? do you know that you should not use each unless nothing else works?
+- **self**: do you kinda know what self is and how to check it?
+- **pry**: do you know what pry is and how/why/when to invoke pry inside a pry?
+- **tools for dealing with being lost**: do you pseudocode? do you google?
+
+#### Labs
+- **TOP PRIORITY: Code Challenge Practice Labs ⭐️⭐️⭐️**
+- Metaprogramming In Ruby: all
+- Configuring Ruby Applications: all
+
+---
+### W2 Tuesday
+
+#### Labs
+- **if you’re feeling like you’d need to practice more**, redo some practice labs and try to develop steps for yourself (e.g. “if I want to get all the students of a teacher, I need to first…)
+- **if you’re feeling confident with the material**, I’d say you can look into SQL labs (Wednesday) —folks usually just gloss over them, sadly, and SQL is just really helpful in ActiveRecord and backend; there’s this [amazing practice thread here](https://dev.to/zchtodd/sql30-day-1-wildfires-2b02); you can also look into metaprogramming in Ruby labs or any labs that interest you (regex, etc.)
+
+---
+### W2 Wednesday
+
+#### Labs
+- Getting Started With SQL
+    - Introduction To Getting Started With SQL
+    - What Is SQL 
+    - SQL Intro And Installation 
+    - SQL Database Basics 
+    - SQL Databases And Text Editors 
+    - SQL Data Types
+    - SQL Inserting, Updating, Selecting And Deleting 
+    - Basic SQL Queries 
+    - Grouping And Sorting Data 
+    - SQL Bear Organizer Lab 
+    - SQL Aggregate Functions
+    - SQL Aggregate Functions Lab
+    - SQL Quiz 
+    - Getting Started With SQL Bookend 
+- Table Relations With SQL
+    - Introduction To Table Relations With SQL
+    - Edgar Codd And Table Relations
+    - Table Relations
+    - SQL JOINS 
+    - SQL Join Tables 
+    - SQL Crowdfunding Lab
+    - SQL Complex Joins
+    - Sql Relations Quiz
+    - Table Relations With SQL Bookend
+- Topics In OO - Object Inheritance In Ruby:
+    - Introduction To Object Inheritance In Ruby
+    - **Intro To Inheritance** ⭐️
+    - **Intro To Inheritance Lab** ⭐️
+    - Intro To Modules
+    - Intro To Modules Lab
+    - **Super** ⭐️
+    - **Super Lab** ⭐️
+    - **Object Inheritance Quiz** ⭐️
+    - **Object Inheritance Bookend** ⭐️
+- Object-Relational Mapping
+    - **Introduction To Object-Relational Mapping** ⭐️ 
+    - **Why An ORM Is Useful** ⭐️ 
+    - Mapping Ruby Classes To Database Tables
+    - Mapping Classes To Tables Lab
+    - Mapping Database Tables To Ruby Objects
+    - Mapping Database Rows To Objects Lab
+    - Updating Records In An ORM
+    - Updating Records In An ORM Lab
+    - Preventing Record Duplication
+    - ORMs Lab: Bringing It All Together
+    - ORM Quiz
+    - ORM Bookend
+    - Using Active Record
+- Introduction To Using Active Record
+    - **Active Record Mechanics** ⭐️ 
+    - **Intro To Rake** ⭐️ 
+    - **Mechanics Of Migrations** ⭐️ 
+    - **Writing Our Own Migrations** ⭐️ 
+    - **Migrations And Active Record Lab** ⭐️ 
+    - **Active Record CRUD Lab** ⭐️ 
+    - Advanced Finding Lab
+    - **Using Active Record Quiz** ⭐️ 
+    - **Using Active Record Bookend** ⭐️ 
+
+---
+### W2 Thursday
+
+#### Self-Check questions
+
+#### Labs
+Active Record Associations
+- **Introduction To Active Record Associations** ⭐️ 
+- **Active Record Associations** ⭐️ 
+- **Active Record Associations Lab** ⭐️ 
+- **Active Record Project** ⭐️ 
+- **Active Record Associations Quiz** ⭐️ 
+- **Active Record Associations Bookend** ⭐️ 
+
+---
+### W2 Friday
+
+#### Self-Check questions
+
+#### Labs
+Catch up on the previous labs
+
+---
+### W3 Monday
+
+#### Self-Check questions
+
+#### Labs
+Catch up on the previous labs
+
+---
+### W3 Tuesday
+
+#### Self-Check questions
+
+#### Labs
+Catch up on the previous labs
+
+---
+### W3 Wednesday
+
+#### Self-Check questions
+
+#### Labs
+Catch up on the previous labs
+
+---
+### W3 Thursday
+
+#### Self-Check questions
+
+#### Labs
+- Additional Practice: Using Yield And Blocks
+    - Introduction To Using Yield And Blocks - Additional Practice
+    - Understanding Yield
+    - My All
+    - My Find
+    - My Each
+    - My Collect
+    - My Select
+    - Blocks Vs. Procs Vs. Lambdas
+- Additional Practice: Regex
+    - Introduction To Regex - Additional Practice
+    - What Is A Pattern - Introduction To Regular Expressions
+    - Regex Basics
+    - Ruby Methods With Regex
+    - Regex Lab
+---
+
 ## Code Challenge Rubric
 ​
 ### Build classes using OO Ruby Syntax
