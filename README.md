@@ -22,6 +22,7 @@ Missing something? Ping your lead on Slack. (Also, here is [all the code](https:
 | Mock Code Challenge Review w/ Annie | [Video1](https://slack-files.com/T02FZRG24-F01GTA8JTRB-ae522bbb6a) [Video2](https://slack-files.com/T02FZRG24-F01HL85QSAU-1cc61ced74)| [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/05%2C5-mock-review-Annie) | - |
 | Mock Code Challenge Review w/ Hasibul | [Video1](https://www.youtube.com/watch?v=kyziR32maGw) [Video2](https://www.youtube.com/watch?v=LkaXsw2wGhs)| [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/05%2C5-mock-review-Hasibul) | - |
 | Intro to ActiveRecord | [Video1](https://youtu.be/uBghb-5_szA) [Video2](https://youtu.be/D50ee_0HbZc)  | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/06-Intro-to-AR-Setup) | [Chat](https://github.com/learn-co-students/nyc04-seng-ft-120720/blob/main/chats/W2D4-IntroToAR.txt) | - |
+| Workshop: Using pry in ActiveRecord | [Video](https://www.youtube.com/watch?v=tWUUtMyuVfo)| [Code](https://github.com/hasibulc/Binding-dot-pry) | - | - |
 | Review: AR CRUD | -  | - | - | - |
 | Lecture: AR Relationships | -  | - | - | - |
 | Lecture: More Models + TTY Prompt | -  | -  | - | - |
