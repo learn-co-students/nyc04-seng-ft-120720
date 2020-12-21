@@ -12,40 +12,44 @@ Active Record Relationships
 ### Outline
 * Review what we covered so far:
     - What is AR?
-      - 
+      - a ruby gem -> external code 
+      - orm
+      - design pattern
     - What does AR do?
-      - 
+      - allows to persist information in a database
+      - translates between sql (database) and Ruby (model)
+      - connects the models to the database
+      - It translates between SQL and Ruby to link ruby files to databases
     - When to use SQL and when AR?
-      - 
+      - whenever you want or whenever it fits the needs of your app
     - What's the difference between a model and a table?
-      - model/class -> 
-      - table -> 
+      - model/class -> define behaviors of Ruby instances
+      - table -> defines attributes of a corresponding instance and contains the saved data of instances
     - Can a database have many tables?
-      - 
+      - YES!!!
     - What is meant by migration?
-      - 
+      - you're changing/modifying/defining a table
+      - a set of instructions for AR to create a table in the database and tie it to the `initialize` method of the corresponding model
+      - once migrated, the table is saved
     - Naming conventions in Ruby and AR
-      - model name:  
-      - everything else: 
+      - model name: SINGULAR
+      - everything else: PLURAL
     - Project file structure
-      - 
     - What is `rake`?
-      - 
-      - 
-      - 
+      - Ruby gem
+      - task manager
     - What is `rake console`?
-      - 
-      - 
-      - 
+      - SUPERPRY
+      - binding.pry that has an access to all the app, including the database
     - Difference between `.new` and `.create`
-      - `.new` -> 
-      - `.create` -> 
+      - `.new` -> creates only Ruby instance, does not save it to the databse
+      - `.create` -> `.new` + `.save`, it saves it to the database; it is an ActiveRecord method and triggers callback methods; 
     - What is CRUD and what are the examples of methods for each letter?
-      - CRUD -> 
-      - c: 
-      - r: 
-      - u: 
-      - d: 
+      - CRUD -> short for Create, Read, Update, Delete
+      - c: `.create`
+      - r: `.all`, `.find`
+      - u: `.update`
+      - d: `.destroy`
 
 ### Setting up relationships
 
