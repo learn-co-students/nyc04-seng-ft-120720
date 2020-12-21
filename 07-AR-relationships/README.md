@@ -18,10 +18,10 @@ This is our domain model:
 
 ```
 Plant —————< PlantParenthood >————————— Parent
-:name       :affection (int)         :name
-:color      :favorite(bool)          :free_time
-:bought(datetime)                    :age
-:fussy(bool)
+:name         :affection (int)         :name
+:color        :favorite(bool)          :free_time
+:fussy(bool)                           :age
+:bought(datetime) 
 ```
 
 - How can we associate a Person with a Plant and vice-versa?
