@@ -24,8 +24,7 @@ Missing something? Ping your lead on Slack. (Also, here is [all the code](https:
 | Intro to ActiveRecord | [Video1](https://youtu.be/uBghb-5_szA) [Video2](https://youtu.be/D50ee_0HbZc)  | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/06-Intro-to-AR-Setup) | [Chat](https://github.com/learn-co-students/nyc04-seng-ft-120720/blob/main/chats/W2D4-IntroToAR.txt) | - |
 | Workshop: Using pry in ActiveRecord | [Video](https://www.youtube.com/watch?v=tWUUtMyuVfo)| [Code](https://github.com/hasibulc/Binding-dot-pry) | - | - |
 | Review: AR CRUD | -  | - | - | - |
-| Lecture: AR Relationships | [Video](https://youtu.be/9bdJfae3cNo)  | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/07-AR-relationships) | - | - |
+| Lecture: AR Relationships | [Video](https://youtu.be/9bdJfae3cNo) [Video - better Q](https://youtu.be/sd5D7FHusvE)  | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/07-AR-relationships) | - | - |
 | Lecture: More Models + TTY Prompt | -  | -  | - | - |
-| Practicing Pry in ActiveRecord | -  | -  |-  | - |
 | Lecture: Internet, APIs, Web Scraping | -  | -  | -  | - |
 
