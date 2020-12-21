@@ -10,7 +10,42 @@ Active Record Relationships
 - [ ] Understand that macros give us methods but the associations happen in the database
 
 ### Outline
-* 
+* Review what we covered so far:
+    - What is AR?
+      - 
+    - What does AR do?
+      - 
+    - When to use SQL and when AR?
+      - 
+    - What's the difference between a model and a table?
+      - model/class -> 
+      - table -> 
+    - Can a database have many tables?
+      - 
+    - What is meant by migration?
+      - 
+    - Naming conventions in Ruby and AR
+      - model name:  
+      - everything else: 
+    - Project file structure
+      - 
+    - What is `rake`?
+      - 
+      - 
+      - 
+    - What is `rake console`?
+      - 
+      - 
+      - 
+    - Difference between `.new` and `.create`
+      - `.new` -> 
+      - `.create` -> 
+    - What is CRUD and what are the examples of methods for each letter?
+      - CRUD -> 
+      - c: 
+      - r: 
+      - u: 
+      - d: 
 
 ### Setting up relationships
 
