@@ -1,7 +1,7 @@
 # Ruby and the Internet: Making requests, spiders and web scraping
 
 🔻 🔻 🔻 BEFORE YOU WATCH THE VIDEO 🔻 🔻 🔻 
-please go into `./pre_lecture_kit` and follow its readme. This should take you maximum an hour. Only then watch [the video](https://flatironschool.zoom.us/rec/play/vZJ4dOyr-mk3GYGX5QSDAPQsW9S7Ka-s1XMe_vQMyk21ASEANFTzbuYQaufD89XO0WRuMEYyCVSH_Gf7?autoplay=true&startTime=1597858344000).
+please go into `./pre_lecture_kit` and follow its readme. This should take you maximum an hour. Only then watch [the video](https://youtu.be/2zNdO0EjVyk).
 
 ## Table of contents:
 - [Learning goals 📚](#learning-goals)
