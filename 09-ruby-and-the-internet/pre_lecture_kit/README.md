@@ -36,4 +36,4 @@ User -< UserJoke >- Joke
 10. Write down all your questions.
 
 ## Read more
-- read Eric the Dad's blog [on ancestry, inheritance and modules in Ruby](https://medium.com/@hyeokjungkim/ruby-ancestry-d7f5d808e7d7)
+- read Eric Kim's blog [on ancestry, inheritance and modules in Ruby](https://medium.com/@hyeokjungkim/ruby-ancestry-d7f5d808e7d7)
