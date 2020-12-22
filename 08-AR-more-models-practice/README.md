@@ -5,6 +5,11 @@ Active Record Relationships - More Models
 - [ ] Practice deciding where the `id` should live in associated tables (remember that it is the joiner's responsibility to know about the other `id`'s)
 - [ ] Practice adding new models and setting up associations from scratch
 
+
+## WATCH THIS FIRST
+
+video: <https://youtu.be/MXkmCTywFFM>
+
 ## ERD
 
 Currently, our ERD looks as following:
