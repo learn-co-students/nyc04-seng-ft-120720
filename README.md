@@ -25,6 +25,6 @@ Missing something? Ping your lead on Slack. (Also, here is [all the code](https:
 | Workshop: Using pry in ActiveRecord | [Video](https://www.youtube.com/watch?v=tWUUtMyuVfo)| [Code](https://github.com/hasibulc/Binding-dot-pry) | - | - |
 | Review: AR CRUD | -  | - | - | - |
 | Lecture: AR Relationships | [Video](https://youtu.be/9bdJfae3cNo) [Video - better Q](https://youtu.be/sd5D7FHusvE)  | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/07-AR-relationships) | - | - |
-| Lecture: More Models + TTY Prompt | -  | -  | - | - |
+| Lecture: More Models | Videos in the folder  | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/08-AR-more-models-practice)  | - | - |
 | Lecture: Internet, APIs, Web Scraping | -  | -  | -  | - |
 
