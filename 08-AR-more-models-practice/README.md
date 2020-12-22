@@ -67,5 +67,4 @@ At the end of the practice, our ERD will look as following:
 4. Add behavior
   - `Person#water_plant` -- accepts an argument of a plant and creates a new instance of `Watering` between the person and the plant; if there is an associated `PlantParenthood` with both, this method also increases the value of affection by one
   - `PlantParenthood#cap_affection` -- introduces a cap on the affection value at 11_000
-  - `Plant#all_past_waterings` -- puts and returns all the past waterings of a plant
   - `Plant#number_of_days_since_the_last_watering` -- puts "I was watered NUMBER days ago"
