@@ -1,5 +1,3 @@
-# require_relative '../config/dad_jokes_scraper'
-
 User.destroy_all
 Joke.destroy_all
 FavJoke.destroy_all
@@ -22,12 +20,5 @@ u1.jokes << j3
 ### explanation: "<<" will create and save a new joiner instance if the associations are set up correctly
 u1.jokes.push(j4, j2)
 ### and if you want to push a couple of instances at the same time, use '.push'
-
-DadJokesScraper.crawl!
-$returned_jokes.each do |joke|
-    content = joke.text
-    Joke.create(content: content)
-    puts "🤣 🤣 🤣  #{content} 🤣 🤣 🤣 "
-end 
 
 puts " 🤡 🤡 🤡 DONE DONE DONE 🤡 🤡 🤡 "
