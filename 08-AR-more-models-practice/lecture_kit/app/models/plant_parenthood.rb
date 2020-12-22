@@ -1,6 +1,6 @@
 class PlantParenthood < ActiveRecord::Base
 
-     belongs_to :plant_parent
+     belongs_to :person
      belongs_to :plant
 
     # def plant_parents
