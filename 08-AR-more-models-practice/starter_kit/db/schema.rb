@@ -10,27 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_21_215955) do
+ActiveRecord::Schema.define(version: 2020_12_21_193828) do
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
   end
 
-  create_table "people", force: :cascade do |t|
+  create_table "plant_parenthoods", force: :cascade do |t|
+    t.integer "plant_id"
+    t.integer "plant_parent_id"
+    t.integer "affection"
+  end
+
+  create_table "plant_parents", force: :cascade do |t|
     t.string "name"
     t.boolean "responsible"
     t.integer "age"
-  end
-
-  create_table "plant_categories", force: :cascade do |t|
-    t.integer "category_id"
-    t.integer "plant_id"
-  end
-
-  create_table "plant_parenthoods", force: :cascade do |t|
-    t.integer "plant_id"
-    t.integer "person_id"
-    t.integer "affection"
   end
 
   create_table "plants", force: :cascade do |t|
@@ -38,6 +33,7 @@ ActiveRecord::Schema.define(version: 2020_12_21_215955) do
     t.string "color"
     t.datetime "bought"
     t.boolean "fussy"
+    t.integer "category_id"
   end
 
 end
