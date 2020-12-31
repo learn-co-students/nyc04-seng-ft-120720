@@ -13,4 +13,5 @@ class Plant < ActiveRecord::Base
         return puts "I was watered #{number} days ago" if number > 0
         puts "I was watered today"
     end
+
 end

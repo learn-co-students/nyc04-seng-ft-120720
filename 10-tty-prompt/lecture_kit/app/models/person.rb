@@ -14,6 +14,3 @@ class Person < ActiveRecord::Base
          end
     end
 end
-
-
-# - `Person#water_plant` -- accepts an argument of a plant and creates a new instance of `Watering` between the person and the plant; if there is an associated `PlantParenthood` with both, this method also increases the value of affection by one
