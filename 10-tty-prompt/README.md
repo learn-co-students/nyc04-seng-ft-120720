@@ -1,5 +1,6 @@
 # TTY Prompt
-===
+
+---
 
 ## SWBATs
 - [ ] Practice setting up TTY Prompt in an application
