@@ -3,7 +3,7 @@
 ## Lectures and reviews
 Missing something? Ping your lead on Slack. (Also, here is [all the code](https://github.com/learn-co-students/nyc04-seng-ft-120720) from the lectures.) 
 
-## Mod 1
+## Phase 1
 | Topic            | Video                | Code                | Chat notes | Slides |
 | -----            | ----                | -----                | ---- | ---- |
 | Intro to Phase One | [Video](https://youtu.be/mdwLAvc8dKA) | - | [Chat](https://github.com/learn-co-students/nyc04-seng-ft-120720/blob/main/chats/W1D1-IntroPhaseOne.txt) | - |
@@ -29,3 +29,7 @@ Missing something? Ping your lead on Slack. (Also, here is [all the code](https:
 | Internet, APIs, Web Scraping | Video in the readme to make sure you read the readme | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/09-ruby-and-the-internet) | -  | - |
 | 🎁 tty-prompt setup | Video in the readme | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/10-tty-prompt) | -  | - |
 
+## Phase 2
+| Topic            | Video                | Code                | Chat notes | Slides |
+| -----            | ----                | -----                | ---- | ---- |
+| Intro to Rails | [Video](https://youtu.be/7CwDjh8el6M) | [Code](https://github.com/learn-co-students/nyc04-seng-ft-120720/tree/main/11-rails-intro) | - | - |
