@@ -1,0 +1,16 @@
+<h1>Add an Item to Wishlist</h1>
+
+<%= form_tag '/wishlistItems' do %>
+
+<%= label_tag "Enter Item Name"%>
+
+  <select name="item_id">
+    <% @items.each do |item|%>
+        <option value=<%=item.id%>>
+          <%=item.name%>
+        </option>
+    <%end%>
+  </select>
+
+  <%= submit_tag "Add to Wishlist" %>
+<% end %>
