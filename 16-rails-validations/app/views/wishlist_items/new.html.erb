@@ -1,0 +1,28 @@
+<h1>Add an Item to Wishlist</h1>
+
+<%= form_tag '/wishlistItems' do %>
+<%= label_tag "Enter Item Name"%>
+
+  <select name="item_id">
+    <% @items.each do |item|%>
+        <option value=<%=item.id%>>
+          <%=item.name%>
+        </option>
+    <%end%>
+  </select>
+
+  <%= submit_tag "Add to Wishlist" %>
+<% end %>
+
+wishlistItem needs a user id and an item id 
+collection_select(:user_id, User.all, :id, :name)
+
+
+
+<h3>Form For<h3>
+
+<%= form_for @wishlistItem do |f| %>
+  <%= f.collection_select :user_id, User.all, :id, :username %>
+  <%= f.collection_select :item_id, Item.all, :id, :name %>
+  <%= f.submit "Add to Wishlist"%>
+<% end %>
