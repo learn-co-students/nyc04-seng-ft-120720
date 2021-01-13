@@ -1,0 +1,15 @@
+<h1><%=@item.name%>'s Product Page </h1>
+
+<p><%=@item.description%></p>
+
+<p><%=@item.price%></p>
+
+<%= form_tag "/items/#{@item.id}/increase", method: "patch" do %>
+    <%= number_field_tag :increase_by_this_num %>
+    <%= submit_tag "Smash that like button" %>
+<% end %>
+
+<hr/>
+
+
+<%= button_to "Destroy this toy" , item_path(@item) , method: "delete" %>

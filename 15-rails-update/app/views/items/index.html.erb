@@ -1,0 +1,17 @@
+<h1>See all Items</h1>
+<p>Find me in app/views/items/index.html.erb</p>
+
+<h3>Total: <%=@items.count%></h3>
+
+<ul>
+
+<% @items.each do |item|%>
+<li>
+
+ <%= link_to  item.name, "/items/#{item.id}" %>
+<img alt=<%=item.name%> src=<%=item.image%>/>
+
+</li>
+<%end%>
+
+</ul>
