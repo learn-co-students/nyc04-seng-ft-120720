@@ -1,0 +1,17 @@
+<h1>Show page for users</h1>
+
+<p>Name: <%= @user.username %> </p>
+<p>Professor name: <%= @user.professor_name %></p>
+
+<p>Job: <%= @user.job %> </p>
+<p>Last logged in: <%= @user.last_logged_in %></p>
+
+<h2>Wish list</h2>
+
+<ul>
+    <% @user.wishlist_items.each do |wishlist_item| %>
+        <li>
+            <%= wishlist_item.item.name %>
+        </li>
+    <% end %>
+</ul>

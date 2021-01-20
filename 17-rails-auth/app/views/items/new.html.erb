@@ -1,0 +1,34 @@
+<h1>In New ERB for Items</h1>
+
+<h3>Form Tag</h3>
+
+<%= form_tag new_item_path do %>
+    <%= text_field_tag "title"%>
+    <%= text_field_tag "image"%>
+    <%= text_field_tag "description"%>
+    <%= number_field_tag "price"%>
+
+    <%= submit_tag "Add Item"%>
+<%end%>
+
+<br>
+<br>
+<br>
+
+<h3>Form For</h3>
+
+@item does it have an id? 
+
+no id? => we must be creating something 
+yes id? => we must be updating an existing item
+RESTful routes => path to create something is post '/items'
+
+<% if flash[:messages] %>
+    <% flash[:messages].each do |message| %>
+        <p>
+            <%= message %> 
+        </p>
+    <% end %>
+<% end %>
+
+<%= render 'form' %>
