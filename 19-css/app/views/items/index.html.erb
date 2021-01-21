@@ -3,16 +3,38 @@
 
 <h3>Total: <%=@items.count%></h3>
 
-<ul>
+<ul id="items">
 
     <% @items.each do |item|%>
-        <li>
 
-        <%= link_to item.name, "/items/#{item.id}" %>
-        <img src=<%=item.image%> alt=<%=item.name%> />
-        <%= button_to "Add to wishlist", "/wishlistItems/add/#{item.id}", method: "post" %>
+        <li class="item">
+
+            <%= link_to item.name, "/items/#{item.id}", {class: "link"} %>
+            <img src=<%=item.image%> alt=<%=item.name%> />
+            <%= button_to "Add to wishlist", "/wishlistItems/add/#{item.id}", method: "post" %>
 
         </li>
+            
     <%end%>
 
 </ul>
+
+<ul class="card-group">
+
+    <% @items.each do |item|%>
+
+        <li class="card special-card">
+
+        <img src=<%=item.image%> alt=<%=item.name%> class="card-img-top" />
+        <div class="card-body">
+            <%= link_to item.name, "/items/#{item.id}", {class: "card-title"} %>
+            <%= button_to "Add to wishlist", "/wishlistItems/add/#{item.id}", method: "post" %>
+        </div>
+
+        </li>
+            
+    <%end%>
+
+</ul>
+        
+        

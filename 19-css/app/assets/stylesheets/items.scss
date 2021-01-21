@@ -2,38 +2,37 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.items {
-    border: black 1px solid;
+ul#items {
+    border: red 1px solid;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .item {
-    border: green 2px solid;  
-    text-align: center;
-    font-family: "Georgia";
-    height: 20rem;
-    max-height: 25rem;
-    flex-basis: 30%;
+    border: black 1px solid;
+    margin: 1rem;
+    border-radius: 20%;
+    box-shadow: 1rem 2rem cadetblue;
 }
 
 .item img {
-    border: red 2px solid;
+    display: block;
     max-width: 10rem;
     max-height: 10rem;
     width: auto;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.item a {
+.item .link {
     padding: 2rem;
 }
 
-.item form {
+.item form{
     padding: 1rem;
+    width: 50%; 
+    margin: 0 auto;
 }

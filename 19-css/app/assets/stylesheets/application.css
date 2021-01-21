@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+ 
+p#hasibul.hello {
+background-color: pink;
+color: blue;
+}
+
+
+.hello {
+    background-color: gray;
+    color: coral;
+}
+
+#hasibul {
+    background-color: black;
+    color: white;
+}
+
+p {
+
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+p#hasibul.hello + p {
+    font-size: 4rem;
+    background-color: black;
+    color: white;
+}
