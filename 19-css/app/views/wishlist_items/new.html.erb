@@ -1,0 +1,8 @@
+<h1>Add an Item to Wishlist</h1>
+
+<h3>Form For<h3>
+
+<%= form_for @wishlistItem do |f| %>
+  <%= f.collection_select :item_id, @items, :id, :name %>
+  <%= f.submit "Add to Wishlist"%>
+<% end %>

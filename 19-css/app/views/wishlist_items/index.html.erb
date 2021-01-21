@@ -1,0 +1,10 @@
+<h1> <%= current_user.username %>'s WishlistItems</h1>
+
+<ol>
+    <% @wishlistItems.each do |wishlist_item| %>
+        <li>
+            <%= wishlist_item.item.name %>
+            <%= button_to "X", "/wishlistItems/#{wishlist_item.id}", method: "delete" %>
+        </li>
+    <% end %>
+</ol>
