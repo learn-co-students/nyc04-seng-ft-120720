@@ -14,15 +14,15 @@
 
 
 ## Outline
-- [ ] Show artisanal/innerHTML approach
 - [ ] Discuss browser events
 - [ ] defer vs DOMContentLoaded
-- [ ] button `click` event
-- [ ] form `submit` event
+- [ ] `click` event
+- [ ] `submit` event
     - How to stop the page from reloading
     - Getting data from the form
 
 ## Deliverables
+- [ ] Organize code from DOM manipulation lecture
 - [ ] When a user clicks the dark mode toggle in the header, change the app between light and dark mode
 - [ ] When a user submits the form, add a new article card to the page using the data from the form
 
