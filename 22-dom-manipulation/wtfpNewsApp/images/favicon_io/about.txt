@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Yantramanav
+- Font Author: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010, Google Inc. All Rights Reserved.
+- Font Source: http://fonts.gstatic.com/s/yantramanav/v6/flU8Rqu5zY00QEpyWJYWN6f0V-dRCQ41.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
