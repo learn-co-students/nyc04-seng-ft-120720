@@ -32,6 +32,7 @@ const articlesArray = [
         likes: 2
     },
     {
+        id: 5,
         title: "I'm not fat, I'm Fluffy",
         author: "Gabriel Iglesias",
         description: "...and Covid makes me even fluffier",
@@ -39,3 +40,175 @@ const articlesArray = [
         likes: 9000
     }
 ]
+
+
+// READ
+
+let companyName = document.querySelector('#news-co')
+let cards = document.querySelectorAll('.card')
+
+// UPDATE #1
+// find what we want to update
+// let firstCard = document.querySelector(`[data-id='1']`)
+// let img = firstCard.querySelector('img')
+
+// update it
+// img.src = 'images/raffy.jpg'
+// img.alt = "Raffy smiling"
+// console.log(img)
+
+
+// UPDATE #2
+// find what we want to update ✅
+// update it
+companyName.style.color = "blue"
+
+
+// REMOVE #1
+// find what we want to remove
+let adArr = document.querySelectorAll('.ad')
+
+adArr.forEach(function (ad) {
+    ad.remove()
+})
+
+
+
+// CREATE #1
+
+// create outer most element
+// const card = document.createElement('div')
+// card.className = 'card'
+// card.dataset.id = articlesArray[0].id
+// card.dataset.beef = "here is another example"
+
+// // add innerHTML & updated the parts that need to be dynamic using string interpolation
+// card.innerHTML = `<div class="img-container">
+// <img src=${articlesArray[0].image} alt=${articlesArray[0].title}/>
+// <div class="article-title-container">
+//     <h4>${articlesArray[0].title}</h4>
+// </div>
+// </div>
+// <div class="content">
+// <p class='author'>Author: ${articlesArray[0].author}</p>
+// <div class="scroll">
+//     <p class='description'>${articlesArray[0].description}</p>
+// </div>
+// <p class="react-count">${articlesArray[0].likes} likes</p>
+// <button class="like-button">♥️ Like</button>
+// </div>`
+
+
+// //find where on the page we want to add the new element
+// const collection = document.querySelector('#collection')
+// // slap it on the DOM
+// collection.append(card)
+
+// console.log(card)
+
+
+
+// CREATE #2
+
+// innerHTML approach
+// articlesArray.forEach(function (article) {
+//     console.log(article)
+//     // create outer most element
+//     const card = document.createElement('div')
+//     card.className = 'card'
+//     card.dataset.id = article.id
+//     card.dataset.beef = "here is another example"
+
+//     // add innerHTML & updated the parts that need to be dynamic using string interpolation
+//     card.innerHTML = `<div class="img-container">
+// <img src=${article.image} alt=${article.title}/>
+// <div class="article-title-container">
+//     <h4>${article.title}</h4>
+// </div>
+// </div>
+// <div class="content">
+// <p class='author'>Author: ${article.author}</p>
+// <div class="scroll">
+//     <p class='description'>${article.description}</p>
+// </div>
+// <p class="react-count">${article.likes} likes</p>
+// <button class="like-button">♥️ Like</button>
+// </div>`
+
+
+//     //find where on the page we want to add the new element
+//     const collection = document.querySelector('#collection')
+//     // slap it on the DOM
+//     collection.append(card)
+
+// })
+
+
+// artisinal appraoch
+articlesArray.forEach(function (article) {
+    console.log(article)
+    // create outer most element
+    const card = document.createElement('div')
+    card.className = 'card'
+    card.dataset.id = article.id
+    card.dataset.beef = "here is another example"
+
+
+    // img container
+    const imgContainer = document.createElement('div')
+    imgContainer.className = 'img-container'
+
+    // img
+    const img = document.createElement('img')
+    img.src = article.image
+    img.alt = article.title
+
+    // article title container
+    const articleTitleBox = document.createElement('div')
+    articleTitleBox.className = 'article-title-container'
+
+    // title
+    const title = document.createElement('h4')
+    title.textContent = article.title
+
+    // content div
+    const contentDiv = document.createElement('div')
+    contentDiv.className = 'content'
+
+    // p author
+    const author = document.createElement('p')
+    author.className = 'author'
+    author.textContent = article.author
+
+    // scroll div
+    const scrollDiv = document.createElement('div')
+    scrollDiv.className = 'scroll'
+
+    // p description
+    const description = document.createElement('p')
+    description.textContent = article.description
+    description.className = 'description'
+
+    // p likes count
+    const likesP = document.createElement('p')
+    likesP.className = 'react-count'
+    likesP.textContent = `${article.likes} likes`
+
+    // likes button
+    const button = document.createElement('button')
+    button.className = 'like-button'
+    button.textContent = `♥️ Like`
+
+    articleTitleBox.append(title)
+
+    imgContainer.append(img, articleTitleBox)
+    scrollDiv.append(description)
+
+    contentDiv.append(author, scrollDiv, likesP, button)
+
+    card.append(imgContainer, contentDiv)
+
+    const collection = document.querySelector('#collection')
+    collection.append(card)
+
+})
