@@ -11,20 +11,15 @@
 - **Handling Events**
 - Communicating with the Server
 
-
-
-## Outline
-- [ ] Discuss browser events
-- [ ] defer vs DOMContentLoaded
-- [ ] `click` event
-- [ ] `submit` event
-    - How to stop the page from reloading
-    - Getting data from the form
+_________
 
 ## Deliverables
 - [ ] Organize code from DOM manipulation lecture
 - [ ] When a user clicks the dark mode toggle in the header, change the app between light and dark mode
 - [ ] When a user submits the form, add a new article card to the page using the data from the form
+
+
+_______
 
 ### What are some common things users do on a webpage?
 
