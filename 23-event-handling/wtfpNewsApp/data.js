@@ -38,5 +38,13 @@ const articlesArray = [
         description: "...and Covid makes me even fluffier",
         image: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftheawkwardyeti.com%2Fwp-content%2Fuploads%2F2017%2F07%2F063017_MaintenanceRequired-1024x841.png&f=1&nofb=1",
         likes: 9000
+    },
+    {
+        id: 6,
+        title: "Fluffy cat goes to moon",
+        author: "Elon Musk",
+        description: "...lorem impsum.....",
+        image: "https://images-na.ssl-images-amazon.com/images/I/51SBsQoWHsL._AC_SX466_.jpg",
+        likes: 70
     }
 ]
