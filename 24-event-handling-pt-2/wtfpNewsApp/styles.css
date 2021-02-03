@@ -169,6 +169,11 @@ header {
     height: 18em;
 }
 
+.card img:hover {
+    z-index: 10000;
+    position: relative;
+}
+
 .content {
     color: var(--edition-info-font-color);
 }

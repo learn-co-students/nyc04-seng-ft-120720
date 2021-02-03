@@ -22,7 +22,6 @@ function renderOneCard(article) {
     card.dataset.id = article.id
     card.dataset.beef = "here is another example"
 
-    // add innerHTML & updated the parts that need to be dynamic using string interpolation
     card.innerHTML = `<div class="img-container">
 <img src=${article.image} alt=${article.title}/>
 <div class="article-title-container">
