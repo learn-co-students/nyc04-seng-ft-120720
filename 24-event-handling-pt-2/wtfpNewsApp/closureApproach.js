@@ -43,6 +43,26 @@ function renderOneCard(article) {
     const collection = document.querySelector('#collection')
     // slap it on the DOM
     collection.append(card)
+    
+
+    // APPROACH 1!
+    const deleteButton = card.querySelector('.delete-button')
+    deleteButton.addEventListener('click', function(e){
+        console.log(e.target)
+        card.remove()
+    })
+
+    const likeButton = card.querySelector('.like-button')
+    likeButton.addEventListener('click', function(e) {
+        // console.log(e.target)
+        const likesPTag = card.querySelector('.react-count')
+        // console.log(likesPTag)
+        // const likesCount = parseInt(likesPTag.textContent)
+        // likesPTag.textContent = likesCount + 1
+        article.likes += 1
+        likesPTag.textContent = `${article.likes} likes`
+
+    })
 }
 
 
@@ -73,40 +93,22 @@ form.addEventListener('submit', function (event) {
 })
 
 
-const collection = document.querySelector('#collection')
-collection.addEventListener('click', function (e) {
-    const card = e.target.closest('div.card')
-
-    if (e.target.className === 'delete-button') {
-        console.log('delete button clicked')
-        card.remove()
-    }
-    else if (e.target.className === 'like-button') {
-        console.log('Like button clicked!!')
-        const likesDisplay = card.querySelector('.react-count')
-        const likes = parseInt(likesDisplay.textContent)
-        likesDisplay.textContent = `${likes + 1} likes`
-    }
-})
-
-
 /********** App init **********/
 
 removeAds()
 renderAllCards()
 
 
-// const deleteButton = document.querySelector('.delete-button')
-// deleteButton.addEventListener('click', function (e) {
-//     console.log('DELETE CLICKED - ', e.target)
-// })
 
-// const card = document.querySelector('div.card')
-// card.addEventListener('click', function (e) {
-//     console.log('CARD CLICKED - ', e.target)
-// })
+/***** Flawed Way *****/
 
-
-// document.body.addEventListener('click', function (e) {
-//     console.log('BODY CLICKED - ', e.target)
+// const allDeleteButtons = document.querySelectorAll('.delete-button')
+// console.log(allDeleteButtons)
+// allDeleteButtons.forEach(function(button) {
+//     button.addEventListener('click', function(e) {
+//         console.log('delete button clicked!!')
+//         console.log(e.target)
+//         const card = e.target.closest('div.card')
+//         card.remove()
+//     })
 // })
