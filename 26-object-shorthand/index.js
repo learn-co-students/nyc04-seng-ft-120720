@@ -1,4 +1,12 @@
-const name = 'Raffy'
-const snack = 'treats'
-const age = 9
+const name = 'Raffy', snack = 'treats', age = 9
+
+// Object Shorthand Notation
+const pet = {
+    name,
+    snack,
+    age,
+    favoritePlaces: ["the couch", "the kitchen"]
+}
+
+
 

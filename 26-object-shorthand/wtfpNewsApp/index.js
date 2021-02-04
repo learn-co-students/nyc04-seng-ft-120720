@@ -58,25 +58,18 @@ toggle.addEventListener('click', function () {
 const form = document.querySelector('#article-form')
 form.addEventListener('submit', function (event) {
     event.preventDefault()
-    const inputFieldOne = event.target[0].value
-    const inputFieldTwo = event.target[1].value
-    const inputFieldThree = event.target[2].value
-    const inputFieldFour = event.target[3].value
+    const title = event.target[0].value
+    const author = event.target[1].value
+    const description = event.target[2].value
+    const image = event.target[3].value
+    const likes = 0
 
-    const lastId = articlesArray[articlesArray.length - 1].id
-    const article = {
-        id: lastId + 1,
-        title: inputFieldOne,
-        author: inputFieldTwo,
-        description: inputFieldThree,
-        image: inputFieldFour,
-        likes: 0
-    }
+    const id = articlesArray[articlesArray.length - 1].id + 1
+    // articlesArray.push(article)
 
-
-
-    articlesArray.push(article)
-    renderOneCard(article)
+    
+    // Object Shorthand Notation
+    renderOneCard({ id, title, description, image, author, likes })
     event.target.reset()
 })
 
