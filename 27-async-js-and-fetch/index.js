@@ -11,6 +11,6 @@ document.querySelector('button').addEventListener('click', () => {
 // translated ruby code from synch.rb
 console.log("Hello World!")
 console.log("brb, gonna go sleep for a sec")
-sleep(5)
+// sleep(5)
 
 console.log("What a nice cat nap that was!")
