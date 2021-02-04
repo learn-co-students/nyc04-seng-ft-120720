@@ -1,0 +1,16 @@
+body {
+    margin: 5%;
+}
+
+/* #part-one {
+    display: none;
+} */
+
+#part-two {
+    display: none;
+}
+
+img {
+    margin: 3em;
+    display: block;
+}
