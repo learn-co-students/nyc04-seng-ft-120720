@@ -64,8 +64,14 @@ form.addEventListener('submit', function (event) {
     const inputFieldFour = event.target[3].value
 
     const lastId = articlesArray[articlesArray.length - 1].id
-
-
+    const article = {
+        id: lastId + 1,
+        title: inputFieldOne,
+        author: inputFieldTwo,
+        description: inputFieldThree,
+        image: inputFieldFour,
+        likes: 0
+    }
 
     articlesArray.push(article)
     renderOneCard(article)
