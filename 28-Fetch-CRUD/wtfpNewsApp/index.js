@@ -1,3 +1,6 @@
+const url = 'http://localhost:3000/articles'
+
+
 /********* FUNCTIONS *********/
 
 function removeAds() {
@@ -9,10 +12,11 @@ function removeAds() {
 }
 
 function renderAllCards() {
-    articlesArray.forEach(function (article) {
-        renderOneCard(article)
-
-    })
+    fetch(url)
+        .then(response => response.json())
+        .then(articlesArray => {
+            articlesArray.forEach(article => renderOneCard(article))
+        })
 }
 
 function renderOneCard(article) {
@@ -64,12 +68,28 @@ form.addEventListener('submit', function (event) {
     const image = event.target[3].value
     const likes = 0
 
-    const id = articlesArray[articlesArray.length - 1].id + 1
-    // articlesArray.push(article)
+    // POST /articles
+    const article = { title, author, description, image, likes }
+    renderOneCard(article) // optimisitc rendering
 
-    
+
+
+    fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(article),
+    })
+        .then(response => response.json())
+        .then(newArticleObject => {
+            console.log('Success:', newArticleObject);
+            // renderOneCard(article) // pessimistic rendering
+        })
+
+
+
     // Object Shorthand Notation
-    renderOneCard({ id, title, description, image, author, likes })
     event.target.reset()
 })
 
@@ -80,13 +100,31 @@ collection.addEventListener('click', function (e) {
 
     if (e.target.className === 'delete-button') {
         console.log('delete button clicked')
-        card.remove()
+        card.remove() // optimistic rendering
+
+        fetch(`${url}/${card.dataset.id}`, {
+            method: "DELETE"
+        })
+            .then(response => response.json())
+            .then(data => console.log(data))
     }
     else if (e.target.className === 'like-button') {
         console.log('Like button clicked!!')
         const likesDisplay = card.querySelector('.react-count')
         const likes = parseInt(likesDisplay.textContent)
-        likesDisplay.textContent = `${likes + 1} likes`
+        // likesDisplay.textContent = `${likes + 1} likes` // optimistic rendering
+
+        fetch(`${url}/${card.dataset.id}`, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ likes: likes + 1 })
+        })
+            .then(response => response.json())
+            .then(data => {
+                likesDisplay.textContent = `${data.likes} likes`
+            })
     }
 })
 

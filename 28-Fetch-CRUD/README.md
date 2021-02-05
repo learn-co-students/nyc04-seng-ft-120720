@@ -15,6 +15,12 @@ ______
 - Handling Events
 - **Communicating with the Server**
 
+
+POST /articles
+GET /articles
+DELETE /articles/:id
+PATCH /articles/:id
+
 ______
 
 ## Notes
