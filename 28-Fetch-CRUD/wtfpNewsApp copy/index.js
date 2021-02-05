@@ -95,19 +95,3 @@ collection.addEventListener('click', function (e) {
 
 removeAds()
 renderAllCards()
-
-
-// const deleteButton = document.querySelector('.delete-button')
-// deleteButton.addEventListener('click', function (e) {
-//     console.log('DELETE CLICKED - ', e.target)
-// })
-
-// const card = document.querySelector('div.card')
-// card.addEventListener('click', function (e) {
-//     console.log('CARD CLICKED - ', e.target)
-// })
-
-
-// document.body.addEventListener('click', function (e) {
-//     console.log('BODY CLICKED - ', e.target)
-// })

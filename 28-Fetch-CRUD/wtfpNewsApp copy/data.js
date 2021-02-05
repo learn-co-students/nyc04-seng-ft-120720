@@ -11,7 +11,7 @@ const articlesArray = [
         id: 2,
         title: "Precapitalist constructive fluff theory in the context of Sontagist camp",
         author: "Prof. Helmut A. Fluffrey, Department of Fluff, Flufts University",
-        description: "'Fluff is intrinsically a legal fiction,' says Derrida; however,according to Abian, it is not so much fluff that is intrinsically a legal fiction, but rather the collapse, and subsequent meaninglessness, of fluff. In a sense, the premise of Sontagist camp implies that a narrative of fluff is created by the collective unconscious.",
+        description: "'Fluff is intrinsically a legal fiction,' says Dera; however,according to Abian, it is not so much fluff that is intrinsically a legal fiction, but rather the collapse, and subsequent meaninglessness, of fluff. In a sense, the premise of Sontagist camp implies that a narrative of fluff is created by the collective unconscious.",
         image: "https://i.etsystatic.com/5379987/r/il/867ce2/1440752021/il_1588xN.1440752021_foyp.jpg",
         likes: 0
     },
