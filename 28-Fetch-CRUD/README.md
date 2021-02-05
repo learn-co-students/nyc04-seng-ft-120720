@@ -12,7 +12,7 @@ __
 
 ### Three Pillars of Javascript
 - Manipulating the DOM
-- **Handling Events
+- Handling Events
 - **Communicating with the Server**
 
 __
