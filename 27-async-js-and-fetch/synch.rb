@@ -1,8 +1,8 @@
 # require 'rest-client'
 # require 'json'
 # require 'pry'
-# "https://dog.ceo/api/breeds/image/random"
-# "https://dog.ceo/api/breeds/list/all"
+# https://randomfox.ca/
+# https://randomfox.ca/floof/
 
 
 puts "Hello World!"
