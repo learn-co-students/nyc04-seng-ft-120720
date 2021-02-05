@@ -73,18 +73,28 @@ form.addEventListener('submit', function (event) {
     renderOneCard(article) // optimisitc rendering
 
 
-
-    fetch(url, {
+    // `${url}/monkeys` is not a real end point, so
+    // this will cause an error
+    fetch(`${url}/monkeys`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify(article),
     })
-        .then(response => response.json())
+        .then(response => {
+            console.log(response)
+            if(!response.ok) {
+                throw new Error(response.statusText)
+            }
+            return response.json()
+        })
         .then(newArticleObject => {
             console.log('Success:', newArticleObject);
             // renderOneCard(article) // pessimistic rendering
+        })
+        .catch(error => {
+            alert(error)
         })
 
 
