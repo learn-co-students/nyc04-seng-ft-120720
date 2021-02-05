@@ -8,14 +8,14 @@
 - [ ] Understand the different configuration options for a fetch request (headers, method, body)
 - [ ] Understand when to use optimistic vs pessimistic rendering
 
-__
+______
 
 ### Three Pillars of Javascript
 - Manipulating the DOM
 - Handling Events
 - **Communicating with the Server**
 
-__
+______
 
 ## Notes
 
