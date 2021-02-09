@@ -95,14 +95,14 @@ const e2 = {
 
 
 
-//aray of objecs
+// Aray of objecs
 const arr = [1, 2, 3, { faveNum: 7, faveFruit: "mango" }, 1000, 99]
 
 const [num1, num2, num3, { faveNum: x, faveFruit }, num4] = arr
 // check out the values num1, num2, num3, x, faveFruit, and num4 in the console!
 
 
-// object with arrays
+// Object with arrays
 const book = {
     title: "READ ME",
     authors: ["Sandra", "Mary", "Jessica", "Maria"],
