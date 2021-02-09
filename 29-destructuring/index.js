@@ -95,11 +95,22 @@ const e2 = {
 
 
 
-//aray of hashes
+//aray of objecs
 const arr = [1, 2, 3, { faveNum: 7, faveFruit: "mango" }, 1000, 99]
 
 const [num1, num2, num3, { faveNum: x, faveFruit }, num4] = arr
 // check out the values num1, num2, num3, x, faveFruit, and num4 in the console!
+
+
+// object with arrays
+const book = {
+    title: "READ ME",
+    authors: ["Sandra", "Mary", "Jessica", "Maria"],
+    genre: "non-fiction"
+}
+
+const { title, authors: [a1, a2, a3], genre } = book
+// check out title, a1, a2, a3, and genre in the console!
 
 
 // Destructuring html collections
