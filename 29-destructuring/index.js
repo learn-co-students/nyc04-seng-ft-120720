@@ -95,4 +95,20 @@ const e2 = {
 
 
 
-// array of hashes
+//aray of hashes
+const arr = [1, 2, 3, { faveNum: 7, faveFruit: "mango" }, 1000, 99]
+
+const [num1, num2, num3, { faveNum: x, faveFruit }, num4] = arr
+// check out the values num1, num2, num3, x, faveFruit, and num4 in the console!
+
+
+// Destructuring html collections
+const liTags = document.getElementsByTagName('li')
+const [li1, li2, li3, li4] = liTags
+li1.style.color = "red"
+
+
+// Destructuring node lists
+const pTags = document.querySelectorAll('p')
+const [p1, p2] = pTags
+p2.style.color = "blue"
