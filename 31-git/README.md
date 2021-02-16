@@ -7,8 +7,6 @@
 2. Understand the differences between Git and GitHub
 3. Fork or clone repositories
 4. Create a repository
-    - starting from GitHub
-    - starting from the command line 
 5. Use at least 12 commands
     - `git init`
     - `git clone`
