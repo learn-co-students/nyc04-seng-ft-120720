@@ -1,4 +1,4 @@
-# Intro To Git & GitHub
+# [Intro To Git & GitHub](https://www.youtube.com/watch?v=D8K90hX4PrE)
 
 <img src="pics/git-happy.gif" width="500">
 
@@ -26,6 +26,24 @@
 
 ##### Git Jokes - git with it 🤷‍♀️
 - https://github.com/EugeneKay/git-jokes/blob/lulz/Jokes.txt
+
+----
+
+### General Workflow For Working In Teams
+
+1. One partner creates the repo
+2. Adds the partners as collaborators
+3. Each teammate clones the repo
+
+
+4. Create your own brach to work on a feature(git checkout -b branch-name)
+5. Code away!
+6. `git pull` on the main branch periodically to ensure your local main branch is synchronized with the remote main branch (you may merge the main branch into your feature branch afterwards if there were updates; this may make it easier to merge your feature branch into the main branch when it's time)
+7. Push your branch up to the remote repo (`git add .`, `git commit -m "some commit message here"`, `git push --set-upstream origin branch-name`/`git push`)
+8. Create a pull request on GitHub
+9. Review & accept the pull request to merge the code into the main branch
+10. `git pull` on the main branch
+11. Repeat steps 4 - 10
 
 ----
 
