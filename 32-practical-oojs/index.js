@@ -15,7 +15,7 @@ const michelle = {
 
 
 // console.log(greg.introduce())
-// console.log(rianna.introduce())
+// console.log(hasibul.introduce())
 // console.log(michelle.introduce())
 
 // console.log(michelle.introduce)
