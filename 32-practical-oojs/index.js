@@ -4,7 +4,7 @@ const greg = {
 }
 
 const hasibul = {
-    firstNameBeef: "Hasibul",
+    firstName: "Hasibul",
     lastName: "Chowdhury"
 }
 
