@@ -6,7 +6,7 @@
       "author": "Prof. Helmut A. Fluffrey, Department of Fluff, Flufts University",
       "description": "'Fluff is intrinsically a legal fiction,' says Dera; however,according to Abian, it is not so much fluff that is intrinsically a legal fiction, but rather the collapse, and subsequent meaninglessness, of fluff. In a sense, the premise of Sontagist camp implies that a narrative of fluff is created by the collective unconscious.",
       "image": "https://i.etsystatic.com/5379987/r/il/867ce2/1440752021/il_1588xN.1440752021_foyp.jpg",
-      "likes": 9
+      "likes": 44
     },
     {
       "id": 3,
@@ -14,7 +14,7 @@
       "author": "Mr. Rafferty",
       "description": "Raffy continues to be a fluffy boy.",
       "image": "images/raffy.jpg",
-      "likes": 34
+      "likes": 36
     },
     {
       "id": 4,
@@ -41,19 +41,12 @@
       "likes": 70
     },
     {
+      "id": 7,
       "title": "Fluff Daddy",
       "author": "F. Diddy",
       "description": "Breaking: Puff Daddy changes his name yet again, this time to help promote his line of extremely fluffy coats",
       "image": "https://i.redd.it/l0uj355oxv341.jpg",
       "likes": 50
-    },
-    {
-      "title": "Let's see",
-      "author": "Grogg",
-      "description": "We'll find out",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51SBsQoWHsL._AC_SX466_.jpg",
-      "likes": 24,
-      "id": 8
     }
   ]
 }

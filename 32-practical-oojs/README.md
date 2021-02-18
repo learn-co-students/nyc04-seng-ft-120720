@@ -22,6 +22,7 @@
 
 
 ## Additional Resources
+- [`this` and Execution Context More in Depth](https://youtube.com/playlist?list=PLc6AmvC5ZybxNfdsWJf4_Iny6dpD1SCtD)
 - [MDN Creating Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer)
 - [MDN Article on Inheritance and the Prototype Chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - [MDN Article on `Object.create`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
