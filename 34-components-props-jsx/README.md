@@ -2,7 +2,10 @@
 
 ## Notes
 
-DQ Questions?
+- errors related to imported code (import/export)
+- passing props
+- JSX syntax - when to use parentheses and curly parens
+- getting data to show on the cards
 
 ## Students Will Be Able To (SWBATs)
 
