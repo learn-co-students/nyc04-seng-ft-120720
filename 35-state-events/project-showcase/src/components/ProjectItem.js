@@ -1,25 +1,33 @@
 import React from "react";
 
-function ProjectItem(props) {
+/* <MyComponent name="Ian" age={99} bio="an absolute fool" />
+function MyComponent({ name, age, bio }) {
+
+} */
+
+function ProjectItem({ project }) {
+  const { image, name, about, link, phase } = project;
   return (
     <li className="card">
       <div className="image">
-        <img src={props.project.image} alt={props.project.name} />
+        <img src={image} alt={name} />
         <button className="claps">👏{0}</button>
       </div>
 
       <div className="details">
-        <h4>{props.project.name}</h4>
-        <p>{props.project.about}</p>
-        {props.project.link ? (
+        <h4>{name}</h4>
+        <p>{about}</p>
+
+        {/* conditional rendering! */}
+        {link ? (
           <p>
-            <a href={props.project.link}>Link</a>
+            <a href={link}>Link</a>
           </p>
         ) : null}
       </div>
 
       <div className="extra">
-        <span className="badge blue">Phase {props.project.phase}</span>
+        <span className="badge blue">Phase {phase}</span>
       </div>
     </li>
   );

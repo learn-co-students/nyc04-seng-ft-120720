@@ -28,7 +28,7 @@ const projects = [
     name: "YouTravel",
     about: "YouTube for Travel Videos",
     phase: 3,
-    link: "https://youtravel.netlify.app/",
+    link: "",
     image: "https://i.imgur.com/Y6mlORn.png",
   },
   {
