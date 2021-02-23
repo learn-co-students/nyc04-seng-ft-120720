@@ -1,11 +1,18 @@
 # State and Events
 
+## Questions?
+
+- bonus - using the weight for pixel height
+
 ## Objectives
 
-- [ ] Add event handlers to elements in React
-- [ ] Use the `useState` hook to create state variables
+- [ ] Add event handlers to elements in React (onClick, onChange)
+- [ ] Use the `useState` hook to create state variables ()
 - [ ] Create event handler callbacks that manipulate `state`
 - [ ] Trigger re-renders by setting state
+
+### Part 2
+
 - [ ] Discuss some "gotchas" of working with `useState`: async code and closures
 
 ## Outline
