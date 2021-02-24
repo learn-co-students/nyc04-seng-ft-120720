@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import ProjectForm from "./ProjectForm";
 import ProjectList from "./ProjectList";
@@ -7,9 +7,19 @@ import ProjectList from "./ProjectList";
 import projects from "../data/projects";
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  function handleToggleDarkMode() {
+    setIsDarkMode((isDarkMode) => !isDarkMode);
+  }
+
   return (
-    <div className="App">
-      <Header name="Flatiron Projects" />
+    <div className={isDarkMode ? "App" : "App light"}>
+      <Header
+        name="Flatiron Projects"
+        isDarkMode={isDarkMode}
+        onToggleDarkMode={handleToggleDarkMode}
+      />
       <ProjectForm />
       <ProjectList projects={projects} />
     </div>

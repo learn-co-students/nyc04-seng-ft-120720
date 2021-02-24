@@ -1,5 +1,11 @@
 # React Data Flow
 
+## Questions?
+
+- deciding where to put the event listener? and how to pass up the data you need
+- rendering the pokemon container
+- conditionally rendering based on state
+
 ## Objectives
 
 - [ ] Draw a component hierarchy and describe the Flow of Information
