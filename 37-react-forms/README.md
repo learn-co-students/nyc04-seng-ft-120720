@@ -1,6 +1,8 @@
 # React Forms
 
-- [ ] Explain why we use controlled forms
+## Objectives
+
+- [ ] Explain why we use controlled forms (vs uncontrolled forms)
 - [ ] Implement a controlled form
 - [ ] Use form data to update state
 

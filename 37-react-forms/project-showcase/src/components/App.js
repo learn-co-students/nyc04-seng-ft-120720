@@ -7,11 +7,19 @@ import ProjectList from "./ProjectList";
 import projectData from "../data/projects";
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
   const [projects, setProjects] = useState(projectData);
+
+  console.log(projects);
 
   function handleToggleDarkMode() {
     setIsDarkMode((isDarkMode) => !isDarkMode);
+  }
+
+  function handleAddProject(newProject) {
+    // projects.push(newProject);
+    // const updatedProjects = [...projects, newProject];
+    setProjects([...projects, newProject]);
   }
 
   return (
@@ -21,7 +29,7 @@ function App() {
         isDarkMode={isDarkMode}
         onToggleDarkMode={handleToggleDarkMode}
       />
-      <ProjectForm />
+      <ProjectForm onAddProject={handleAddProject} />
       <ProjectList projects={projects} />
     </div>
   );
