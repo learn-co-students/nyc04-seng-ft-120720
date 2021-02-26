@@ -5,7 +5,7 @@
 ## Objectives
 
 - [ ] Define a side effect in terms of React components
-- [ ] Use the `useEffect` hook to fetch data
+- [ ] Use the `useEffect` hook to fetch data (when a component renders)
 
 ### Bonus
 

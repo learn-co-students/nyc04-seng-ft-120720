@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.potion-shop {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.shop {
+  color: white;
+  background-color: #5c2500;
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  border-width: 10px;
+  border-style: ridge;
+  border-color: #ac801b;
+}
+
+.shop-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.inventory {
+  font-size: 10px;
+  color: white;
+  background-color: #3d1500;
+  background-image: url("https://www.transparenttextures.com/patterns/leather.png");
+  border-width: 10px;
+  border-style: ridge;
+  border-color: #ac801b;
+}
+
+.inventory-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.purse {
+  height: 10vh;
+}
+
+.coin {
+  margin: 1vh;
+  height: 50%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 30%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.image-wrapper {
+  background-color: rgba(62, 37, 50, 100);
+  overflow: hidden;
+  height: 60%;
+  border-color: gold;
+  border-width: 7px;
+  border-style: ridge;
+  position: relative;
+}
+
+.card {
+  height: 20vh;
+  margin: 3vw;
+  text-align: center;
+}
+
+.potion-header {
+  height: 20%;
+}
+
+.inventory-card {
+  text-align: center;
+  width: 15%;
+  margin: 3vw;
+}
+
+.torch {
+}
+
+.shop-header {
+  display: flex;
+}
+
+.flipped {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.shake {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 0px);
+  }
+  10% {
+    transform: translate(-1px, 0px);
+  }
+  20% {
+    transform: translate(-3px, 0px);
+  }
+  30% {
+    transform: translate(3px, 0px);
+  }
+  40% {
+    transform: translate(1px, 0px);
+  }
+  50% {
+    transform: translate(-1px, 0px);
+  }
+  60% {
+    transform: translate(-3px, 0px);
+  }
+  70% {
+    transform: translate(3px, 0px);
+  }
+  80% {
+    transform: translate(-1px, 0px);
+  }
+  90% {
+    transform: translate(1px, 0px);
+  }
+  100% {
+    transform: translate(1px, 0px);
+  }
+}

@@ -13,14 +13,22 @@ function ProjectForm({ onAddProject }) {
     const formData = {
       name,
       about,
-      phase,
+      phase: parseInt(phase),
       link,
       image,
     };
-    console.log(formData);
-    // TODO: make a post request and save this to database
-    // then set state
-    // onAddProject(formData);
+
+    fetch("http://localhost:4000/projects", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+      .then((r) => r.json())
+      .then((newProject) => {
+        onAddProject(newProject);
+      });
   }
 
   return (
