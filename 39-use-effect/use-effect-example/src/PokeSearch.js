@@ -1,13 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const API_URL = `https://pokeapi.co/api/v2/pokemon/charmander`;
 
 function PokeSearch() {
   const [pokemon, setPokemon] = useState(null);
-  const [query, setQuery] = useState("charmander");
+  const [query, setQuery] = useState("");
 
   // TODO: fetch pokemon when the component loads
   // TODO: fetch pokemon when the query changes
+  useEffect(() => {
+    console.log("useEffect");
+    if (query.length > 0) {
+      fetch(`https://pokeapi.co/api/v2/pokemon/${query}`)
+        .then((r) => r.json())
+        .then((pokemon) => setPokemon(pokemon))
+        .catch(() => alert("Something went wrong!"));
+    }
+  }, [query]);
 
   console.log("query:", query);
 
