@@ -82,6 +82,11 @@ is working properly! Oh no! They will be checking the following:
 4. Clicking a sushi on a plate will eat the sushi, causing it to be removed from
    its plate and an empty plate to appear on the table.
 
+- state of "eaten" - in App or in Sushi???
+
+- state in Sushi (eaten: true/false)
+- state in App (plates: [1,1,1,1])
+
 5. We need to make money! Whenever a sushi is eaten, customers should be
    automatically charged! Based on a budget decided by you, the developer, the
    amount of money remaining should go down by the cost of the sushi that was
