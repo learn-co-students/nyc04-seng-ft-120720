@@ -28,9 +28,35 @@
 
 ### Frontend Routes
 
+- "/home" - Home
+- "/projects/new" - ProjectForm
+- "/projects" - ProjectList
+- "/projects/:id" - ProjectDetail
+
+Rails
+
+- "http://localhost:3000/projects" - JSON
+
 ### Benefits
 
+- smaller code base
+- no refresh! nice user experience
+- component-based - easier to debug of JS code, separation of responsibilities
+
 ### Challenges
+
+- async code
+- knowing HTML/css (Rails helpers)
+- less uniqueness between pages
+
+- conditional render - hard to hide things
+  - render a specific "page" (component) based on the URL
+- can't point the user to a particular "page" (no URLs)
+  - bookmarks
+  - sharing links
+  - redirect
+  - refresh and see the same component
+  - back button
 
 ### Static vs Dynamic Routing
 
@@ -53,7 +79,8 @@ Server-side vs Client-side Routing.
 
 ### HTML5 History API
 
-At a low level, React Router takes advantage of the fact that we can programmatically interact with the browser's url with the History API.
+At a low level, React Router takes advantage of the fact that we can
+programmatically interact with the browser's url with the History API.
 
 You can manipulate the URL in your browser with these:
 
@@ -197,6 +224,8 @@ To work with these hooks, first import the one you'd like to use. Then, call it
 in the body of your function component, just like you would with `useState` or
 `useEffect`.
 
+Here's an example of using the `useParams` hook:
+
 ```js
 import { useParams } from "react-router-dom";
 
@@ -204,6 +233,30 @@ function MyPage() {
   const params = useParams();
 
   return <h1>Page params: {params.id}</h1>;
+}
+```
+
+And an example of `useHistory`:
+
+```js
+import { useHistory } from "react-router-dom";
+
+function Login({ setUser }) {
+  const history = useHistory();
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    fetch("http://localhost:4000/login")
+      .then((r) => r.json())
+      .then((user) => {
+        // set the user in state
+        setUser(user);
+        // redirect to the profile page
+        history.push("/profile");
+      });
+  }
+
+  // form etc below
 }
 ```
 

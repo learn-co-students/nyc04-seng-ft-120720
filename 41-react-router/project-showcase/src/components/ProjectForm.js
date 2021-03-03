@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 function ProjectForm({ onAddProject }) {
   const [name, setName] = useState("");
@@ -6,6 +7,9 @@ function ProjectForm({ onAddProject }) {
   const [phase, setPhase] = useState(1);
   const [link, setLink] = useState("");
   const [image, setImage] = useState("");
+  // use this to navigate instead of Links
+  const history = useHistory();
+  console.log(history);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -28,6 +32,8 @@ function ProjectForm({ onAddProject }) {
       .then((r) => r.json())
       .then((newProject) => {
         onAddProject(newProject);
+        // redirect!
+        history.push(`/projects/${newProject.id}`);
       });
   }
 
