@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 
-function Login() {
+function Login({ setCurrentUser }) {
   const [formData, setFormData] = useState({
     username: "",
     password: "",
   });
+  const history = useHistory();
 
   function handleChange(e) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -13,6 +15,22 @@ function Login() {
   function handleSubmit(e) {
     e.preventDefault();
     // TODO: login the user
+
+    // request => POST /login
+    fetch("http://localhost:3000/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+      .then((r) => r.json())
+      .then((user) => {
+        // response => set the user in state
+        setCurrentUser(user);
+        // redirect!
+        history.push("/");
+      });
   }
 
   return (

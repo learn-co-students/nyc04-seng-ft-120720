@@ -76,7 +76,7 @@ bundle install
 
 ### CORS
 
-Set up [CORS config](https://github.com/cyu/rack-cors#rails-configuration) to allow requests from your frontent to your backend:
+Set up [CORS config](https://github.com/cyu/rack-cors#rails-configuration) to allow requests from your frontend to your backend:
 
 ```rb
 # config/initializers/cors.rb

@@ -25,6 +25,15 @@ the page.
 
 ## Auth Discussion
 
+- cookies! sessions (SessionController)
+
+  - JWT (JSON Web Token)
+
+- bcrypt and hashing!
+  - password_digest
+- authenticating routes! (what can a user access after logging in?)
+- params
+
 ## Fake It Till You Make It
 
 Building out these features takes a significant amount of time, which means less
