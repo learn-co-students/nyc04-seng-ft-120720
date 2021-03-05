@@ -14,10 +14,15 @@ function App() {
   useEffect(() => {
     // TODO: check if a user has already logged in (look for their token)
     // if they've already logged in, use that token to them in again
-    const token = true;
+    const token = localStorage.getItem("token");
     if (token) {
       // request => GET /me
-      fetch("http://localhost:3000/me")
+      // send the token with the request
+      fetch("http://localhost:3000/me", {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
         .then((r) => r.json())
         .then((user) => {
           // response => setCurrentUser
@@ -32,7 +37,7 @@ function App() {
       <main>
         <Switch>
           <Route path="/signup">
-            <SignUp />
+            <SignUp setCurrentUser={setCurrentUser} />
           </Route>
           <Route path="/login">
             <Login setCurrentUser={setCurrentUser} />

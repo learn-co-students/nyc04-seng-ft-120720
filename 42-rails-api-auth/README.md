@@ -7,12 +7,12 @@
 **Goal**: be able to work with a user object in the frontend and backend, so
 that you can work on more interesting features without worrying actual auth.
 
-- [ ] Review Rails API setup
-- [ ] Create user model
-- [ ] Add routes + controller actions for fake auth
+- [x] Review Rails API setup
+- [x] Create user model
+- [x] Add routes + controller actions for fake auth
   - `POST /login`: login with a form
   - `GET /me`: auto-login
-- [ ] Test routes with Postman
+- [x] Test routes with Postman
 
 ### Part 2: JWT Auth
 

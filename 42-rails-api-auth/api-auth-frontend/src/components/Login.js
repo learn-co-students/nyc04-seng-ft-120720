@@ -6,6 +6,7 @@ function Login({ setCurrentUser }) {
     username: "",
     password: "",
   });
+  const [errors, setErrors] = useState([]);
   const history = useHistory();
 
   function handleChange(e) {
@@ -14,8 +15,6 @@ function Login({ setCurrentUser }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    // TODO: login the user
-
     // request => POST /login
     fetch("http://localhost:3000/login", {
       method: "POST",
@@ -24,12 +23,25 @@ function Login({ setCurrentUser }) {
       },
       body: JSON.stringify(formData),
     })
-      .then((r) => r.json())
-      .then((user) => {
-        // response => set the user in state
-        setCurrentUser(user);
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          return response.json().then((data) => {
+            throw data;
+          });
+        }
+      })
+      .then((data) => {
+        // set the user in state
+        setCurrentUser(data.user);
+        // save the token!
+        localStorage.setItem("token", data.token);
         // redirect!
         history.push("/");
+      })
+      .catch((data) => {
+        setErrors(data.errors);
       });
   }
 
@@ -51,6 +63,12 @@ function Login({ setCurrentUser }) {
           value={formData.password}
           onChange={handleChange}
         />
+
+        {errors.map((error) => (
+          <p key={error} style={{ color: "red" }}>
+            {error}
+          </p>
+        ))}
         <input type="submit" value="Login" />
       </form>
     </div>

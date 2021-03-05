@@ -17,18 +17,22 @@ function Profile({ currentUser, setCurrentUser }) {
     e.preventDefault();
     // TODO: update the user's profile
     // request => PATCH /me { image, bio }
-    fetch("http://localhost:3000/me", {
-      method: "PATCH",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    })
-      .then((r) => r.json())
-      .then((user) => {
-        // response => update the user in state
-        setCurrentUser(user);
-      });
+    const token = localStorage.getItem("token");
+    if (token) {
+      fetch("http://localhost:3000/me", {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify(formData),
+      })
+        .then((r) => r.json())
+        .then((user) => {
+          // response => update the user in state
+          setCurrentUser(user);
+        });
+    }
   }
 
   const { image, bio } = formData;

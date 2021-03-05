@@ -2,6 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function NavBar({ currentUser, setCurrentUser }) {
+  function handleLogout() {
+    setCurrentUser(null);
+    localStorage.removeItem("token");
+  }
+
   return (
     <header>
       <div>
@@ -11,7 +16,7 @@ function NavBar({ currentUser, setCurrentUser }) {
         {currentUser ? (
           <>
             <Link to="/profile">Profile</Link>
-            <button onClick={() => setCurrentUser(null)}>Logout</button>
+            <button onClick={handleLogout}>Logout</button>
           </>
         ) : (
           <>
