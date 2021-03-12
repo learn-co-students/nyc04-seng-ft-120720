@@ -1,7 +1,9 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import styled from "styled-components";
 
-function Header({ weather }) {
+function Header() {
+  const weather = useSelector((state) => state.weather);
   return (
     <Wrapper>
       <h1>PokeMapper</h1>

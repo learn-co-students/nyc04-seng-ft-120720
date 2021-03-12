@@ -1,8 +1,10 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import styled from "styled-components";
 import Pokemon from "./Pokemon";
 
-function PokemonList({ pokemons }) {
+function PokemonList() {
+  const pokemons = useSelector((state) => state.pokemons);
   return (
     <List>
       {pokemons.map((pokemon, index) => (

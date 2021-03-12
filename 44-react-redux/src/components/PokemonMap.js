@@ -5,7 +5,9 @@ import {
   TileLayer,
   useMapEvents,
 } from "react-leaflet";
+import { useDispatch, useSelector } from "react-redux";
 import { getRandomPokemon } from "../api/pokemon";
+import { addPokemon } from "../redux/pokemonSlice";
 import PokemonMarker from "./PokemonMarker";
 
 const tileLayers = {
@@ -32,12 +34,19 @@ const tileLayers = {
   },
 };
 
-function PokemonMap({ lat, lng, pokemons, icon = "☀️", onAddPokemon }) {
+function PokemonMap() {
+  const { lat, lng } = useSelector((state) => state.position);
+  const pokemons = useSelector((state) => state.pokemons);
+  const icon = useSelector((state) => state.weather.icon);
+  const dispatch = useDispatch();
+
   function handleMapClick({ latlng: { lat, lng } }) {
     getRandomPokemon()
       .then((pokemon) => {
         const pokemonWithPosition = { ...pokemon, position: [lat, lng] };
-        onAddPokemon(pokemonWithPosition);
+        dispatch(addPokemon(pokemonWithPosition));
+        // console.log(pokemonWithPosition);
+        // onAddPokemon(pokemonWithPosition);
       })
       .catch((err) => console.error("Pokemon fetch error", err));
   }

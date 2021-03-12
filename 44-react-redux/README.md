@@ -1,5 +1,12 @@
 # React Redux
 
+- manages global state
+- reducer functions (pure functions) (state, action) => newState
+- store (holds state)
+- dispatch (updates state) dispatch({ type, payload })
+- actions (type, payload)
+- createSlice
+
 ## Redux (Part 1)
 
 - [x] Create a `store` and set up initial state
